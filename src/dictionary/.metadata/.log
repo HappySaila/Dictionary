@@ -1,0 +1,12 @@
+!SESSION 2016-03-25 13:20:26.920 -----------------------------------------------
+eclipse.buildId=debbuild
+java.version=1.8.0_66-internal
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_ZA
+Framework arguments:  AbstractHashTable.java ChainedEntry.java Definition.java Dictionary.java Entry.java Loader.java LPHashTable.java Monitorable.java WordType.java
+Command-line arguments:  -os linux -ws gtk -arch x86_64 AbstractHashTable.java ChainedEntry.java Definition.java Dictionary.java Entry.java Loader.java LPHashTable.java Monitorable.java WordType.java
+
+!ENTRY org.eclipse.core.resources 2 2 2016-03-25 13:43:39.131
+!MESSAGE Save operation warnings.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2016-03-25 13:43:39.132
+!MESSAGE The project description file (.project) for 'dictionary' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
