@@ -41,8 +41,6 @@ public abstract class AbstractHashTable  extends Monitorable implements Dictiona
 		// Your code here. convert string into an integer and search table until word is found
 		//instantioation
 		int hashVal = hashFunction(word);
-		int iterator = hashVal; //used to LP through the table incrementing it at every failed word search
-		int tableSize = table.length; //used to know when the iterator must "wrap around"
 		String storedVal = "";
 		if (table[hashVal]!=null){
 			storedVal = table[hashVal].getWord();
@@ -51,7 +49,11 @@ public abstract class AbstractHashTable  extends Monitorable implements Dictiona
 	}
 
 	public List<Definition> getDefinitions(String word) {
-		// Your code here.
+		// Your code here. 
+		int index = findIndex(word);
+		if (table[index]!=null){
+			return table[hashFunction(word)].getDefinitions();
+		}
 		return null;
 	}
 
@@ -60,11 +62,14 @@ public abstract class AbstractHashTable  extends Monitorable implements Dictiona
 		//inserts value with no linear probe... If space is already occupied then the word will not be added
 		Entry entry = new Entry(word);
 		entry.addDefinition(definition);
-		if (!this.containsWord(word)){
-			table[hashFunction(word)]=entry;
+		int index = findIndex(word);
+		
+		if (table[index]==null){
+			table[index]=entry;
 			entries++;
+		}else if (table[index].getWord()==word){
+			table[index].addDefinition(definition);
 		}
-		//else we linear probe
 	}
 
 
@@ -94,7 +99,7 @@ public abstract class AbstractHashTable  extends Monitorable implements Dictiona
 	 * Returns -1 if a slot is not found (such as when the table is full under LP).
 	 * 
 	 */
-	protected abstract int findIndex(String word);
+	public abstract int findIndex(String word);
 
 
 
@@ -124,5 +129,7 @@ public abstract class AbstractHashTable  extends Monitorable implements Dictiona
 	public void view(String word){
 		System.out.println("The key that the word hashes to is: "+hashFunction(word));
 	}
-
+	public int getLength(){
+		return table.length;
+	}
 }
