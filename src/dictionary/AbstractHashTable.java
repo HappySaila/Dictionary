@@ -132,4 +132,7 @@ public abstract class AbstractHashTable  extends Monitorable implements Dictiona
 	public int getLength(){
 		return table.length;
 	}
+	public Entry[] getTable(){
+		return this.table;
+	}
 }

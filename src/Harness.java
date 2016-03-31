@@ -18,11 +18,15 @@ public class Harness{
 			int size = sc.nextInt();
 			table = new LPHashTable(size);
 		}
-		//else if (command.equals("2")){
-		else{
+		else if (command.equals("2")){
 			System.out.println("Enter the size of you QP table");
 			int size = sc.nextInt();
 			table = new QPHashTable(size);
+		}
+		else{
+			System.out.println("Enter the size of you SC table");
+			int size = sc.nextInt();
+			table = new SCHashTable(size);
 		}
 
 		String todo = "\n\nEnter the number for what you want to do. Press \"!\" to quit and print.\n\n1) insertVal.\n" +
@@ -42,7 +46,7 @@ public class Harness{
 				}
 			}
 			//enters 2: check if the value is in the table and if it is not you can add it
-			if (command.equals("2")){
+			else if (command.equals("2")){
 				while(!command.equals("#")){
 					System.out.println("Enter the word that you want to check for existance. \"#\" to go back");
 					command = sc.nextLine();
@@ -63,7 +67,7 @@ public class Harness{
 				}
 			}
 			//enters 3: print amount of values in the table and the loadFactor
-			if (command.equals("3")){
+			else if (command.equals("3")){
 				System.out.println("Table size: "+table.size()+"/"+table.getLength());
 				System.out.println("Do you want to print the table? y/n");
 				String reply = sc.nextLine();
@@ -72,7 +76,7 @@ public class Harness{
 				}
 			}
 			//enters 4: check the hash value of a word and can insert the word if need
-			if (command.equals("4")){
+			else if (command.equals("4")){
 				while(!command.equals("#")){
 					System.out.println("Enter the word that you want to view. \"#\" to go back");
 					command = sc.nextLine();
@@ -86,7 +90,7 @@ public class Harness{
 					}
 				}
 			}
-			if (command.equals("5")){
+			else if (command.equals("5")){
 				while (!command.equals("#")){
 					System.out.println("Enter the value you want to check the index for. \"#\" to go back");
 					command = sc.nextLine();
@@ -98,6 +102,11 @@ public class Harness{
 						}
 					}
 				}
+			}
+			else if(command.equals("#c")){
+				System.out.println("Enter the slot that you want to view.");
+				int val = sc.nextInt();
+				System.out.println("The word at slot "+val+" is "+table.getTable()[val].getWord());
 			}
 			System.out.println(todo);
 			command = sc.nextLine();

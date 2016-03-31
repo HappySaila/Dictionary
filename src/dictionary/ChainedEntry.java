@@ -27,4 +27,7 @@ public class ChainedEntry extends Entry {
      * Obtain the next entry in the chain.
      */
     public ChainedEntry getNext() { return next; }
+    public String toString(){
+    	return (word+"; "+next);
+    }
 }

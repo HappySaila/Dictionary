@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class Entry {
 
     
-    private String word;
+    public String word;
     private List<Definition> definitions;
     
     /**
