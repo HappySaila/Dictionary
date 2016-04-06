@@ -53,4 +53,4 @@ clean:
 	@rm -Rf coveragereport
 	@rm -Rf doc
 run: clean all
-	java -cp $(BINDIR) LoadTest dictionary.LPHashTable 5000 lexicon.txt
+	java -cp $(BINDIR) LoadTest dictionary.LPHashTable 100 lexicon.txt

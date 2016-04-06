@@ -28,24 +28,12 @@ public class LoadTest {
         // Your code here.
         System.out.println("Hoorah!");
         File file = new File("data/" +args[2]);
-        loader.loader(file);
-        table.dump();
-        
-        /*double loadfactor = 1.0;
-        int amountOfData = (int)Math.round(Integer.parseInt(args[1])*loadfactor);
-        System.out.println(amountOfData);
         try{
-            for(int i = 0; i < amountOfData; i++) {
-                BufferedReader br = new BufferedReader(new FileReader("data/" + args[2]));
-                loader.load(br.readLine());
-            }
-        }catch(Exception e){
-            System.out.println(e.getMessage());
-        };
-        System.out.println(table.getProbeCount());
-        //table.dump();*/
-
+        	loader.loader(file);
+        }
+        catch(Exception e){
+        	table.dump();
+        	System.out.println(e.getMessage());
+        }
     }
-    
-    
 }
