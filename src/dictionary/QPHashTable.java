@@ -1,3 +1,4 @@
+//WLSGRA012
 package dictionary;
 import java.util.List;
 /**
@@ -29,8 +30,10 @@ public class QPHashTable extends AbstractHashTable {
 		while(true){
 			if (loadFactor()>0.5){
 				//table needs rehashing
-				table = rehash(table);
-				iterator = table.length-1;
+				//resizes the table
+				/*table = rehash(table);
+				iterator = table.length-1;*/
+				return -1;
 			}
 			else if (table[hashVal]==null && hashVal<iterator){
 				//empty slot, insert the word

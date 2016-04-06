@@ -1,7 +1,8 @@
+//WLSGRA012
 package dictionary;
 import java.util.List;
 /**
- * Simple hash table implementation of Dictionary using quadratic probing.
+ * Simple hash table implementation of Dictionary using Sequencial chaining.
  * 
  * @author Stephan Jamieson 
  * @version 24/4/2015
@@ -10,14 +11,14 @@ public class SCHashTable extends AbstractHashTable {
 
 	protected ChainedEntry[] table; 
 	/**
-	 * Create an LPHashTable with DEFAULT_SIZE table.
+	 * Create an SCHashTable with DEFAULT_SIZE table.
 	 */ 
 	public SCHashTable() {
 		this(DEFAULT_SIZE); 
 	}
 
 	/**
-	 * Create an LPHashTable with the given default size table.
+	 * Create an SCHashTable with the given default size table.
 	 */
 	public SCHashTable(int size) { 
 		super(size);

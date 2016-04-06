@@ -60,7 +60,7 @@ public class Loader {
     /**
      * Parse the given file, inserting the results in the target.
      */
-    public void load(final File file) throws FileNotFoundException, IOException { 
+    public void loader(final File file) throws FileNotFoundException, IOException { 
         assert(dictionary!=null && file!=null);
         BufferedReader reader = new BufferedReader(new FileReader(file));      
         String line = reader.readLine();

@@ -20,7 +20,7 @@
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="212" y="26"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.jdt.ui.ClassFileEditor" itemType="typePlaceholder" x="-1" y="-1"/>
-<coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
@@ -31,100 +31,34 @@
 <info part="DefaultEditorWorkbook">
 <folder appearance="1" expanded="2">
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="9"/>
-<part id="6"/>
 <part id="0"/>
-<part id="4"/>
 <part id="1"/>
 <part id="2"/>
 <part id="3"/>
-<part id="5"/>
-<part id="7"/>
-<part id="8"/>
-<part id="10"/>
-<part id="11"/>
-<part id="12"/>
-<part id="13"/>
-<part id="14"/>
-<part id="15"/>
-<part id="16"/>
-<part id="17"/>
-<part id="18"/>
-<part id="19"/>
+<part id="4"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AbstractHashTable.java" partName="AbstractHashTable.java" title="AbstractHashTable.java" tooltip="/home/king-jee/Documents/DS2_Prac1/src/dictionary/AbstractHashTable.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/home/king-jee/Documents/DS2_Prac1/src/dictionary/AbstractHashTable.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1994" selectionTopPixel="312"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ChainedEntry.java" partName="ChainedEntry.java" title="ChainedEntry.java" tooltip="/home/king-jee/Documents/DS2_Prac1/src/dictionary/ChainedEntry.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/home/king-jee/Documents/DS2_Prac1/src/dictionary/ChainedEntry.java"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DataReader.java" partName="DataReader.java" title="DataReader.java" tooltip="/home/king-jee/Documents/DS2_Prac1/test/DataReader.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/home/king-jee/Documents/DS2_Prac1/test/DataReader.java"/>
 <editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Definition.java" partName="Definition.java" title="Definition.java" tooltip="/home/king-jee/Documents/DS2_Prac1/src/dictionary/Definition.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/home/king-jee/Documents/DS2_Prac1/src/dictionary/Definition.java"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="LoadTest.java" partName="LoadTest.java" title="LoadTest.java" tooltip="/home/king-jee/Documents/DS2_Prac1/test/LoadTest.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/home/king-jee/Documents/DS2_Prac1/test/LoadTest.java"/>
 <editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Dictionary.java" partName="Dictionary.java" title="Dictionary.java" tooltip="/home/king-jee/Documents/DS2_Prac1/src/dictionary/Dictionary.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/home/king-jee/Documents/DS2_Prac1/src/dictionary/Dictionary.java"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Nonsense.java" partName="Nonsense.java" title="Nonsense.java" tooltip="/home/king-jee/Documents/DS2_Prac1/test/Nonsense.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/home/king-jee/Documents/DS2_Prac1/test/Nonsense.java"/>
 <editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Entry.java" partName="Entry.java" title="Entry.java" tooltip="/home/king-jee/Documents/DS2_Prac1/src/dictionary/Entry.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/home/king-jee/Documents/DS2_Prac1/src/dictionary/Entry.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="982" selectionTopPixel="0"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PrimeSequence.java" partName="PrimeSequence.java" title="PrimeSequence.java" tooltip="/home/king-jee/Documents/DS2_Prac1/test/PrimeSequence.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/home/king-jee/Documents/DS2_Prac1/test/PrimeSequence.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="177"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Loader.java" partName="Loader.java" title="Loader.java" tooltip="/home/king-jee/Documents/DS2_Prac1/src/dictionary/Loader.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/home/king-jee/Documents/DS2_Prac1/src/dictionary/Loader.java"/>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Randomizer.java" partName="Randomizer.java" title="Randomizer.java" tooltip="/home/king-jee/Documents/DS2_Prac1/test/Randomizer.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/home/king-jee/Documents/DS2_Prac1/test/Randomizer.java"/>
 <editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="LPHashTable.java" partName="LPHashTable.java" title="LPHashTable.java" tooltip="/home/king-jee/Documents/DS2_Prac1/src/dictionary/LPHashTable.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/home/king-jee/Documents/DS2_Prac1/src/dictionary/LPHashTable.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="86" selectionOffset="215" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Monitorable.java" partName="Monitorable.java" title="Monitorable.java" tooltip="/home/king-jee/Documents/DS2_Prac1/src/dictionary/Monitorable.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/home/king-jee/Documents/DS2_Prac1/src/dictionary/Monitorable.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="WordType.java" partName="WordType.java" title="WordType.java" tooltip="/home/king-jee/Documents/DS2_Prac1/src/dictionary/WordType.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/home/king-jee/Documents/DS2_Prac1/src/dictionary/WordType.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="5" selectionOffset="352" selectionTopPixel="0"/>
-</editor>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Harness.java" partName="Harness.java" title="Harness.java" tooltip="/home/king-jee/Documents/DS2_Prac1/src/Harness.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/home/king-jee/Documents/DS2_Prac1/src/Harness.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="455" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.ClassFileEditor" name="AbstractHashTable.class" partName="AbstractHashTable.class" title="AbstractHashTable.class" tooltip="/home/king-jee/Documents/DS2_Prac1/src/dictionary/AbstractHashTable.class" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/home/king-jee/Documents/DS2_Prac1/src/dictionary/AbstractHashTable.class"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.ClassFileEditor" name="ChainedEntry.class" partName="ChainedEntry.class" title="ChainedEntry.class" tooltip="/home/king-jee/Documents/DS2_Prac1/src/dictionary/ChainedEntry.class" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/home/king-jee/Documents/DS2_Prac1/src/dictionary/ChainedEntry.class"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.ClassFileEditor" name="Definition.class" partName="Definition.class" title="Definition.class" tooltip="/home/king-jee/Documents/DS2_Prac1/src/dictionary/Definition.class" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/home/king-jee/Documents/DS2_Prac1/src/dictionary/Definition.class"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.ClassFileEditor" name="Dictionary.class" partName="Dictionary.class" title="Dictionary.class" tooltip="/home/king-jee/Documents/DS2_Prac1/src/dictionary/Dictionary.class" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/home/king-jee/Documents/DS2_Prac1/src/dictionary/Dictionary.class"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.ClassFileEditor" name="Entry.class" partName="Entry.class" title="Entry.class" tooltip="/home/king-jee/Documents/DS2_Prac1/src/dictionary/Entry.class" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/home/king-jee/Documents/DS2_Prac1/src/dictionary/Entry.class"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.ClassFileEditor" name="Loader.class" partName="Loader.class" title="Loader.class" tooltip="/home/king-jee/Documents/DS2_Prac1/src/dictionary/Loader.class" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/home/king-jee/Documents/DS2_Prac1/src/dictionary/Loader.class"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.ClassFileEditor" name="LPHashTable.class" partName="LPHashTable.class" title="LPHashTable.class" tooltip="/home/king-jee/Documents/DS2_Prac1/src/dictionary/LPHashTable.class" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/home/king-jee/Documents/DS2_Prac1/src/dictionary/LPHashTable.class"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.ClassFileEditor" name="Monitorable.class" partName="Monitorable.class" title="Monitorable.class" tooltip="/home/king-jee/Documents/DS2_Prac1/src/dictionary/Monitorable.class" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/home/king-jee/Documents/DS2_Prac1/src/dictionary/Monitorable.class"/>
-</editor>
-<editor id="org.eclipse.ui.DefaultTextEditor" name="package.html" partName="package.html" title="package.html" tooltip="/home/king-jee/Documents/DS2_Prac1/src/dictionary/package.html" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/home/king-jee/Documents/DS2_Prac1/src/dictionary/package.html"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.ClassFileEditor" name="WordType.class" partName="WordType.class" title="WordType.class" tooltip="/home/king-jee/Documents/DS2_Prac1/src/dictionary/WordType.class" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/home/king-jee/Documents/DS2_Prac1/src/dictionary/WordType.class"/>
 </editor>
 </editors>
 <views>
@@ -224,7 +158,7 @@
 </mainWindow>
 </layout>
 </perspective>
-<perspective editorAreaTrimState="1" editorAreaVisible="1" fixed="0" version="0.016">
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.jdt.internal.ui.JavaPerspectiveFactory" id="org.eclipse.jdt.ui.JavaPerspective" label="Java"/>
 <alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
 <alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
@@ -274,20 +208,11 @@
 <hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
 <hide_toolbar_item_id id="org.eclipse.debug.ui.commands.RunToLine"/>
 <hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
-<fastViewBars>
-<fastViewBar fastViewLocation="131072" id="bottom" orientation="256" selectedTabId="org.eclipse.ui.views.ProblemView" style="1">
-<fastViews>
-<view id="org.eclipse.ui.views.ProblemView" ratio="0.3"/>
-<view id="org.eclipse.jdt.ui.JavadocView" ratio="0.3"/>
-<view id="org.eclipse.jdt.ui.SourceView" ratio="0.3"/>
-</fastViews>
-</fastViewBar>
-<fastViewBar fastViewLocation="131072" id="right" orientation="512" selectedTabId="org.eclipse.ui.views.ContentOutline" style="1">
-<fastViews>
-<view id="org.eclipse.ui.views.ContentOutline" ratio="0.3"/>
-</fastViews>
-</fastViewBar>
-</fastViewBars>
+<view id="org.eclipse.ui.views.ProblemView"/>
+<view id="org.eclipse.jdt.ui.JavadocView"/>
+<view id="org.eclipse.jdt.ui.SourceView"/>
+<view id="org.eclipse.ui.views.ContentOutline"/>
+<fastViewBars/>
 <layout>
 <mainWindow>
 <info folder="true" part="left">
@@ -309,23 +234,29 @@
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.24959569" ratioLeft="463" ratioRight="1392" relationship="2" relative="left"/>
 <info folder="true" part="bottom" ratio="0.75" ratioLeft="741" ratioRight="247" relationship="4" relative="org.eclipse.ui.editorss">
-<folder appearance="2" expanded="2">
-<page content="org.eclipse.ui.views.ProblemView" label="LabelNotFound"/>
-<page content="org.eclipse.jdt.ui.JavadocView" label="LabelNotFound"/>
-<page content="org.eclipse.jdt.ui.SourceView" label="LabelNotFound"/>
+<folder activePageID="org.eclipse.ui.views.ProblemView" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
+<page content="org.eclipse.jdt.ui.JavadocView" label="Javadoc"/>
+<page content="org.eclipse.jdt.ui.SourceView" label="Declaration"/>
 <page content="org.eclipse.search.ui.views.SearchView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.console.ConsoleView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.ProgressView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+</presentation>
 </folder>
 </info>
 <info folder="true" part="right" ratio="0.75" ratioLeft="1044" ratioRight="348" relationship="2" relative="org.eclipse.ui.editorss">
-<folder appearance="2" expanded="2">
-<page content="org.eclipse.ui.views.ContentOutline" label="LabelNotFound"/>
+<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
 <page content="org.eclipse.ui.texteditor.TemplatesView" label="LabelNotFound"/>
 <page content="org.eclipse.ant.ui.views.AntView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
 </folder>
 </info>
 </mainWindow>
@@ -338,160 +269,167 @@
 <editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" uri="file:/home/king-jee/Documents/DS2_Prac1/src/dictionary/LPHashTable.java"/>
 <editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" uri="file:/home/king-jee/Documents/DS2_Prac1/src/dictionary/Entry.java"/>
 <editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" uri="file:/home/king-jee/Documents/DS2_Prac1/src/dictionary/Definition.java"/>
-<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" uri="file:/home/king-jee/Documents/DS2_Prac1/src/dictionary/ChainedEntry.java"/>
 <editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" uri="file:/home/king-jee/Documents/DS2_Prac1/src/dictionary/AbstractHashTable.java"/>
 <editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" uri="file:/home/king-jee/Documents/DS2_Prac1/src/Harness.java"/>
 <editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" uri="file:/home/king-jee/Documents/DS2_Prac1/src/dictionary/WordType.java"/>
 <editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" uri="file:/home/king-jee/Documents/DS2_Prac1/src/dictionary/AbstractHashTable.class"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" uri="file:/home/king-jee/Documents/DS2_Prac1/src/Harness.java"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" uri="file:/home/king-jee/Documents/DS2_Prac1/test/DataReader.java"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" uri="file:/home/king-jee/Documents/DS2_Prac1/test/PrimeSequence.java"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" uri="file:/home/king-jee/Documents/DS2_Prac1/src/dictionary/WordType.java"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" uri="file:/home/king-jee/Documents/DS2_Prac1/test/DataReader.java"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" uri="file:/home/king-jee/Documents/DS2_Prac1/test/LoadTest.java"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" uri="file:/home/king-jee/Documents/DS2_Prac1/test/Nonsense.java"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" uri="file:/home/king-jee/Documents/DS2_Prac1/test/Randomizer.java"/>
 </editors>
-<item historyLabel="AbstractHashTable.java" index="4">
-<position info="not_deleted" x="2255" y="0"/>
-</item>
-<item historyLabel="AbstractHashTable.java" index="4">
-<position info="not_deleted" x="2384" y="0"/>
-</item>
-<item historyLabel="Entry.java" index="1">
-<position info="not_deleted" x="982" y="0"/>
-</item>
-<item historyLabel="AbstractHashTable.java" index="4">
-<position info="not_deleted" x="2384" y="0"/>
-</item>
-<item historyLabel="AbstractHashTable.java" index="4">
-<position info="not_deleted" x="2325" y="0"/>
-</item>
-<item historyLabel="AbstractHashTable.java" index="4">
-<position info="not_deleted" x="2379" y="0"/>
-</item>
-<item historyLabel="ChainedEntry.java" index="3">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="AbstractHashTable.java" index="4">
-<position info="not_deleted" x="2410" y="0"/>
-</item>
-<item historyLabel="Harness.java" index="5">
-<position info="not_deleted" x="450" y="0"/>
-</item>
-<item historyLabel="AbstractHashTable.java" index="4">
-<position info="not_deleted" x="2410" y="0"/>
-</item>
-<item historyLabel="Harness.java" index="5">
+<item historyLabel="Harness.java" index="4">
 <position info="not_deleted" x="370" y="0"/>
 </item>
-<item historyLabel="AbstractHashTable.java" index="4">
+<item historyLabel="AbstractHashTable.java" index="3">
 <position info="not_deleted" x="2410" y="0"/>
 </item>
 <item historyLabel="LPHashTable.java" index="0">
 <position info="not_deleted" x="215" y="86"/>
 </item>
-<item historyLabel="Harness.java" index="5">
+<item historyLabel="Harness.java" index="4">
 <position info="not_deleted" x="370" y="0"/>
 </item>
-<item historyLabel="Harness.java" index="5">
+<item historyLabel="Harness.java" index="4">
 <position/>
 </item>
 <item historyLabel="Definition.java" index="2">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="Harness.java" index="5">
+<item historyLabel="Harness.java" index="4">
 <position/>
 </item>
-<item historyLabel="AbstractHashTable.java" index="4">
+<item historyLabel="AbstractHashTable.java" index="3">
 <position info="not_deleted" x="2410" y="0"/>
 </item>
 <item historyLabel="Definition.java" index="2">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="WordType.java" index="6">
+<item historyLabel="WordType.java" index="5">
 <position info="not_deleted" x="352" y="5"/>
 </item>
-<item historyLabel="Harness.java" index="5">
+<item historyLabel="Harness.java" index="4">
 <position info="not_deleted" x="272" y="0"/>
 </item>
 <item historyLabel="Definition.java" index="2">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="WordType.java" index="6">
+<item historyLabel="WordType.java" index="5">
 <position info="not_deleted" x="352" y="5"/>
 </item>
-<item historyLabel="Harness.java" index="5">
+<item historyLabel="Harness.java" index="4">
 <position info="not_deleted" x="238" y="0"/>
 </item>
-<item historyLabel="WordType.java" index="6">
+<item historyLabel="WordType.java" index="5">
 <position info="not_deleted" x="352" y="5"/>
 </item>
-<item historyLabel="Harness.java" index="5">
+<item historyLabel="Harness.java" index="4">
 <position info="not_deleted" x="235" y="0"/>
 </item>
-<item historyLabel="WordType.java" index="6">
+<item historyLabel="WordType.java" index="5">
 <position info="not_deleted" x="352" y="5"/>
 </item>
-<item historyLabel="Harness.java" index="5">
+<item historyLabel="Harness.java" index="4">
 <position info="not_deleted" x="235" y="0"/>
 </item>
-<item historyLabel="Harness.java" index="5">
+<item historyLabel="Harness.java" index="4">
 <position info="not_deleted" x="239" y="0"/>
 </item>
-<item historyLabel="Harness.java" index="5">
+<item historyLabel="Harness.java" index="4">
 <position info="not_deleted" x="272" y="0"/>
 </item>
 <item historyLabel="Definition.java" index="2">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="Harness.java" index="5">
+<item historyLabel="Harness.java" index="4">
 <position info="not_deleted" x="307" y="0"/>
 </item>
-<item historyLabel="AbstractHashTable.java" index="4">
+<item historyLabel="AbstractHashTable.java" index="3">
 <position info="not_deleted" x="2410" y="0"/>
 </item>
-<item historyLabel="Harness.java" index="5">
+<item historyLabel="Harness.java" index="4">
 <position info="not_deleted" x="307" y="0"/>
 </item>
 <item historyLabel="LPHashTable.java" index="0">
 <position info="not_deleted" x="215" y="86"/>
 </item>
-<item historyLabel="AbstractHashTable.java" index="4">
+<item historyLabel="AbstractHashTable.java" index="3">
 <position info="not_deleted" x="2410" y="0"/>
 </item>
-<item historyLabel="Harness.java" index="5">
+<item historyLabel="Harness.java" index="4">
 <position info="not_deleted" x="307" y="0"/>
 </item>
-<item historyLabel="AbstractHashTable.java" index="4">
+<item historyLabel="AbstractHashTable.java" index="3">
 <position info="not_deleted" x="2410" y="0"/>
 </item>
-<item historyLabel="AbstractHashTable.java" index="4">
+<item historyLabel="AbstractHashTable.java" index="3">
 <position/>
 </item>
 <item historyLabel="LPHashTable.java" index="0">
 <position info="not_deleted" x="215" y="86"/>
 </item>
-<item historyLabel="AbstractHashTable.java" index="4">
+<item historyLabel="AbstractHashTable.java" index="3">
 <position/>
 </item>
-<item historyLabel="AbstractHashTable.java" index="4">
+<item historyLabel="AbstractHashTable.java" index="3">
 <position/>
 </item>
-<item historyLabel="AbstractHashTable.java" index="4">
+<item historyLabel="AbstractHashTable.java" index="3">
 <position info="not_deleted" x="1539" y="0"/>
 </item>
 <item historyLabel="Entry.java" index="1">
 <position info="not_deleted" x="982" y="0"/>
 </item>
-<item historyLabel="AbstractHashTable.java" index="4">
+<item historyLabel="AbstractHashTable.java" index="3">
 <position info="not_deleted" x="1539" y="0"/>
 </item>
-<item historyLabel="AbstractHashTable.java" index="4">
+<item historyLabel="AbstractHashTable.java" index="3">
 <position info="not_deleted" x="1994" y="0"/>
 </item>
-<item historyLabel="Harness.java" index="5">
+<item historyLabel="Harness.java" index="4">
 <position info="not_deleted" x="448" y="0"/>
 </item>
-<item historyLabel="AbstractHashTable.java" index="4">
+<item historyLabel="AbstractHashTable.java" index="3">
 <position info="not_deleted" x="1994" y="0"/>
 </item>
-<item historyLabel="Harness.java" index="5">
+<item historyLabel="Harness.java" index="4">
 <position info="not_deleted" x="448" y="0"/>
 </item>
-<item active="true" historyLabel="AbstractHashTable.class" index="7"/>
+<item historyLabel="AbstractHashTable.class" index="6"/>
+<item historyLabel="Harness.java" index="7">
+<position info="not_deleted" x="455" y="0"/>
+</item>
+<item historyLabel="DataReader.java" index="8">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="PrimeSequence.java" index="9">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="WordType.java" index="10">
+<position info="not_deleted" x="352" y="5"/>
+</item>
+<item historyLabel="DataReader.java" index="11">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="LoadTest.java" index="12">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="DataReader.java" index="11">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Nonsense.java" index="13">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="PrimeSequence.java" index="9">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item active="true" historyLabel="Randomizer.java" index="14">
+<position info="not_deleted" x="0" y="0"/>
+</item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
 </page>
@@ -513,6 +451,21 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Randomizer.java" tooltip="/home/king-jee/Documents/DS2_Prac1/test/Randomizer.java">
+<persistable uri="file:/home/king-jee/Documents/DS2_Prac1/test/Randomizer.java"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PrimeSequence.java" tooltip="/home/king-jee/Documents/DS2_Prac1/test/PrimeSequence.java">
+<persistable uri="file:/home/king-jee/Documents/DS2_Prac1/test/PrimeSequence.java"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Nonsense.java" tooltip="/home/king-jee/Documents/DS2_Prac1/test/Nonsense.java">
+<persistable uri="file:/home/king-jee/Documents/DS2_Prac1/test/Nonsense.java"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="LoadTest.java" tooltip="/home/king-jee/Documents/DS2_Prac1/test/LoadTest.java">
+<persistable uri="file:/home/king-jee/Documents/DS2_Prac1/test/LoadTest.java"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DataReader.java" tooltip="/home/king-jee/Documents/DS2_Prac1/test/DataReader.java">
+<persistable uri="file:/home/king-jee/Documents/DS2_Prac1/test/DataReader.java"/>
+</file>
 <file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="WordType.class" tooltip="/home/king-jee/Documents/DS2_Prac1/src/dictionary/WordType.class">
 <persistable uri="file:/home/king-jee/Documents/DS2_Prac1/src/dictionary/WordType.class"/>
 </file>
@@ -542,21 +495,6 @@
 </file>
 <file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="AbstractHashTable.class" tooltip="/home/king-jee/Documents/DS2_Prac1/src/dictionary/AbstractHashTable.class">
 <persistable uri="file:/home/king-jee/Documents/DS2_Prac1/src/dictionary/AbstractHashTable.class"/>
-</file>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Harness.java" tooltip="/home/king-jee/Documents/DS2_Prac1/src/Harness.java">
-<persistable uri="file:/home/king-jee/Documents/DS2_Prac1/src/Harness.java"/>
-</file>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="WordType.java" tooltip="/home/king-jee/Documents/DS2_Prac1/src/dictionary/WordType.java">
-<persistable uri="file:/home/king-jee/Documents/DS2_Prac1/src/dictionary/WordType.java"/>
-</file>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Monitorable.java" tooltip="/home/king-jee/Documents/DS2_Prac1/src/dictionary/Monitorable.java">
-<persistable uri="file:/home/king-jee/Documents/DS2_Prac1/src/dictionary/Monitorable.java"/>
-</file>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="LPHashTable.java" tooltip="/home/king-jee/Documents/DS2_Prac1/src/dictionary/LPHashTable.java">
-<persistable uri="file:/home/king-jee/Documents/DS2_Prac1/src/dictionary/LPHashTable.java"/>
-</file>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Loader.java" tooltip="/home/king-jee/Documents/DS2_Prac1/src/dictionary/Loader.java">
-<persistable uri="file:/home/king-jee/Documents/DS2_Prac1/src/dictionary/Loader.java"/>
 </file>
 </mruList>
 </workbench>

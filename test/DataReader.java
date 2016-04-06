@@ -25,6 +25,7 @@ public class DataReader {
         String line = reader.readLine();
         while (line!=null) {
             data.add(line);
+            line = reader.readLine();
         }
         reader.close();
     }

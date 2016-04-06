@@ -1,3 +1,4 @@
+//WLSGRA012
 package dictionary;
 import java.util.List;
 /**
@@ -64,12 +65,16 @@ public abstract class AbstractHashTable  extends Monitorable implements Dictiona
 		entry.addDefinition(definition);
 		int index = findIndex(word);
 		
-		if (table[index]==null){
+		if (index==-1){
+			rebuild();
+		}
+		else if (table[index]==null){
 			table[index]=entry;
 			entries++;
-		}else if (table[index].getWord()==word){
+		}else if (table[index].getWord().equals(word)){
 			table[index].addDefinition(definition);
 		}
+		incProbeCount();
 	}
 
 

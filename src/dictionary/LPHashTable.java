@@ -1,3 +1,4 @@
+//WLSGRA012
 package dictionary;
 import java.util.List;
 /**
@@ -32,7 +33,12 @@ public class LPHashTable extends AbstractHashTable {
 				//empty slot, insert the word
 				return hashVal;
 			}
+			else if (table[hashVal].getWord().equals(word)){
+				//add the def
+				return hashVal;
+			}
 			else {
+				//it is a different word
 				hashVal++;
 				if (hashVal>iterator-1){
 					hashVal = 0;
