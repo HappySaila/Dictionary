@@ -30,7 +30,8 @@ vpath %.class $(SRCDIR)/$(BINDIR)
 
 all: Monitorable.class WordType.class Definition.class Entry.class ChainedEntry.class Dictionary.class\
 	AbstractHashTable.class LPHashTable.class QPHashTable.class SCHashTable.class Loader.class\
-	LoadTest.class Harness.class\
+	Randomizer.class DataReader.class Nonsense.class\
+	LoadTest.class SearchTest.class\
 
 # Rules for unit testing
 # Add additional Testxx.class file to this line and to TestSuite.java
@@ -55,6 +56,8 @@ clean:
 run: clean all
 	java -cp $(BINDIR) LoadTest dictionary.LPHashTable 1000 lexicon.txt
 re:
-	java -cp $(BINDIR) LoadTest dictionary.QPHashTable 1999 lexicon.txt
+	java -cp $(BINDIR) LoadTest dictionary.SCHashTable 1000 lexicon.txt
 harn: all
 	java -cp $(BINDIR) Harness
+search: clean all
+	java -cp $(BINDIR) SearchTest dictionary.QPHashTable 1000 lexicon.txt 100 10000

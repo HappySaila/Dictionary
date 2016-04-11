@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="17" version="2.0">
+<workbench progressCount="15" version="2.0">
 <workbenchAdvisor/>
 <window height="743" maximized="true" width="1018" x="65" y="24">
 <fastViewData fastViewLocation="1024"/>
@@ -39,25 +39,26 @@
 <part id="7"/>
 <part id="8"/>
 <part id="9"/>
+<part id="12"/>
 <part id="10"/>
 <part id="11"/>
-<part id="12"/>
 <part id="13"/>
 <part id="14"/>
 <part id="15"/>
 <part id="16"/>
 <part id="17"/>
+<part id="18"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DataReader.java" partName="DataReader.java" title="DataReader.java" tooltip="/home/w/wlsgra012/Documents/CSC2001F/DS2_Prac1/test/DataReader.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/home/w/wlsgra012/Documents/CSC2001F/DS2_Prac1/test/DataReader.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="5"/>
 </editor>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="LoadTest.java" partName="LoadTest.java" title="LoadTest.java" tooltip="/home/w/wlsgra012/Documents/CSC2001F/DS2_Prac1/test/LoadTest.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/home/w/wlsgra012/Documents/CSC2001F/DS2_Prac1/test/LoadTest.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="32" selectionOffset="1483" selectionTopPixel="154"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1721" selectionTopPixel="0"/>
 </editor>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Nonsense.java" partName="Nonsense.java" title="Nonsense.java" tooltip="/home/w/wlsgra012/Documents/CSC2001F/DS2_Prac1/test/Nonsense.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/home/w/wlsgra012/Documents/CSC2001F/DS2_Prac1/test/Nonsense.java"/>
@@ -73,7 +74,7 @@
 </editor>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AbstractHashTable.java" partName="AbstractHashTable.java" title="AbstractHashTable.java" tooltip="/home/w/wlsgra012/Documents/CSC2001F/DS2_Prac1/src/dictionary/AbstractHashTable.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/home/w/wlsgra012/Documents/CSC2001F/DS2_Prac1/src/dictionary/AbstractHashTable.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="16" selectionOffset="2280" selectionTopPixel="805"/>
+<editorState selectionHorizontalPixel="0" selectionLength="11" selectionOffset="1883" selectionTopPixel="0"/>
 </editor>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ChainedEntry.java" partName="ChainedEntry.java" title="ChainedEntry.java" tooltip="/home/w/wlsgra012/Documents/CSC2001F/DS2_Prac1/src/dictionary/ChainedEntry.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/home/w/wlsgra012/Documents/CSC2001F/DS2_Prac1/src/dictionary/ChainedEntry.java"/>
@@ -97,23 +98,23 @@
 </editor>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Loader.java" partName="Loader.java" title="Loader.java" tooltip="/home/w/wlsgra012/Documents/CSC2001F/DS2_Prac1/src/dictionary/Loader.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/home/w/wlsgra012/Documents/CSC2001F/DS2_Prac1/src/dictionary/Loader.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2432" selectionTopPixel="545"/>
+<editorState selectionHorizontalPixel="0" selectionLength="69" selectionOffset="1527" selectionTopPixel="545"/>
 </editor>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="LPHashTable.java" partName="LPHashTable.java" title="LPHashTable.java" tooltip="/home/w/wlsgra012/Documents/CSC2001F/DS2_Prac1/src/dictionary/LPHashTable.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/home/w/wlsgra012/Documents/CSC2001F/DS2_Prac1/src/dictionary/LPHashTable.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1058" selectionTopPixel="222"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1058" selectionTopPixel="107"/>
 </editor>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Monitorable.java" partName="Monitorable.java" title="Monitorable.java" tooltip="/home/w/wlsgra012/Documents/CSC2001F/DS2_Prac1/src/dictionary/Monitorable.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/home/w/wlsgra012/Documents/CSC2001F/DS2_Prac1/src/dictionary/Monitorable.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="17" selectionOffset="793" selectionTopPixel="0"/>
 </editor>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="QPHashTable.java" partName="QPHashTable.java" title="QPHashTable.java" tooltip="/home/w/wlsgra012/Documents/CSC2001F/DS2_Prac1/src/dictionary/QPHashTable.java" workbook="DefaultEditorWorkbook">
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="QPHashTable.java" partName="QPHashTable.java" title="QPHashTable.java" tooltip="/home/w/wlsgra012/Documents/CSC2001F/DS2_Prac1/src/dictionary/QPHashTable.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/home/w/wlsgra012/Documents/CSC2001F/DS2_Prac1/src/dictionary/QPHashTable.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="902" selectionTopPixel="328"/>
+<editorState selectionHorizontalPixel="0" selectionLength="10" selectionOffset="1239" selectionTopPixel="287"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SCHashTable.java" partName="SCHashTable.java" title="SCHashTable.java" tooltip="/home/w/wlsgra012/Documents/CSC2001F/DS2_Prac1/src/dictionary/SCHashTable.java" workbook="DefaultEditorWorkbook">
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SCHashTable.java" partName="SCHashTable.java" title="SCHashTable.java" tooltip="/home/w/wlsgra012/Documents/CSC2001F/DS2_Prac1/src/dictionary/SCHashTable.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/home/w/wlsgra012/Documents/CSC2001F/DS2_Prac1/src/dictionary/SCHashTable.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="586"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1565" selectionTopPixel="311"/>
 </editor>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="WordType.java" partName="WordType.java" title="WordType.java" tooltip="/home/w/wlsgra012/Documents/CSC2001F/DS2_Prac1/src/dictionary/WordType.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/home/w/wlsgra012/Documents/CSC2001F/DS2_Prac1/src/dictionary/WordType.java"/>
@@ -121,7 +122,11 @@
 </editor>
 <editor id="org.eclipse.cdt.make.editor" name="makefile" partName="makefile" title="makefile" tooltip="/home/w/wlsgra012/Documents/CSC2001F/DS2_Prac1/makefile" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/home/w/wlsgra012/Documents/CSC2001F/DS2_Prac1/makefile"/>
-<editorState selectionHorizontalPixel="0" selectionLength="212" selectionOffset="740" selectionTopPixel="300"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="983" selectionTopPixel="294"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SearchTest.java" partName="SearchTest.java" title="SearchTest.java" tooltip="/home/w/wlsgra012/Documents/CSC2001F/DS2_Prac1/test/SearchTest.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/home/w/wlsgra012/Documents/CSC2001F/DS2_Prac1/test/SearchTest.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2135" selectionTopPixel="515"/>
 </editor>
 </editors>
 <views>
@@ -173,9 +178,9 @@
 <perspective_action id="org.eclipse.jdt.ui.JavaBrowsingPerspective"/>
 <perspective_action id="org.eclipse.team.cvs.ui.cvsPerspective"/>
 <perspective_action id="org.eclipse.team.ui.TeamSynchronizingPerspective"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
 <hide_toolbar_item_id id="org.eclipse.debug.ui.commands.RunToLine"/>
 <hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
-<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
 <fastViewBars>
 <fastViewBar fastViewLocation="16384" id="bottomLeft" orientation="512" selectedTabId="org.eclipse.ui.views.ContentOutline" style="1">
 <fastViews>
@@ -196,7 +201,7 @@
 <layout>
 <mainWindow>
 <info folder="true" part="topLeft">
-<folder appearance="2" expanded="0">
+<folder appearance="2" expanded="2">
 <page content="org.eclipse.ui.navigator.ProjectExplorer" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
@@ -213,7 +218,7 @@
 </info>
 <info part="org.eclipse.gef.ui.palette_view" ratio="0.25940594" ratioLeft="262" ratioRight="748" relationship="2" relative="topLeft"/>
 <info folder="true" part="bottomRight" ratio="0.659375" ratioLeft="422" ratioRight="218" relationship="4" relative="org.eclipse.gef.ui.palette_view">
-<folder appearance="2" expanded="0">
+<folder appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.TaskList" label="LabelNotFound"/>
 <page content="org.eclipse.team.ui.GenericHistoryView" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
@@ -221,7 +226,7 @@
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.1590909" ratioLeft="119" ratioRight="629" relationship="2" relative="org.eclipse.gef.ui.palette_view"/>
 <info folder="true" part="bottomLeft" ratio="0.5" ratioLeft="320" ratioRight="320" relationship="4" relative="topLeft">
-<folder appearance="2" expanded="0">
+<folder appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ContentOutline" label="LabelNotFound"/>
 <page content="org.eclipse.ant.ui.views.AntView" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
@@ -234,166 +239,167 @@
 <workingSets/>
 <navigationHistory>
 <editors>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.cdt.make.editor" uri="file:/home/w/wlsgra012/Documents/CSC2001F/DS2_Prac1/makefile"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" uri="file:/home/w/wlsgra012/Documents/CSC2001F/DS2_Prac1/test/SearchTest.java"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" uri="file:/home/w/wlsgra012/Documents/CSC2001F/DS2_Prac1/test/Randomizer.java"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" uri="file:/home/w/wlsgra012/Documents/CSC2001F/DS2_Prac1/test/DataReader.java"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" uri="file:/home/w/wlsgra012/Documents/CSC2001F/DS2_Prac1/test/Nonsense.java"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" uri="file:/home/w/wlsgra012/Documents/CSC2001F/DS2_Prac1/src/dictionary/QPHashTable.java"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" uri="file:/home/w/wlsgra012/Documents/CSC2001F/DS2_Prac1/src/dictionary/Monitorable.java"/>
 <editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" uri="file:/home/w/wlsgra012/Documents/CSC2001F/DS2_Prac1/test/LoadTest.java"/>
 <editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" uri="file:/home/w/wlsgra012/Documents/CSC2001F/DS2_Prac1/src/dictionary/AbstractHashTable.java"/>
 <editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" uri="file:/home/w/wlsgra012/Documents/CSC2001F/DS2_Prac1/src/dictionary/Loader.java"/>
-<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" uri="file:/home/w/wlsgra012/Documents/CSC2001F/DS2_Prac1/src/dictionary/QPHashTable.java"/>
-<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.cdt.make.editor" uri="file:/home/w/wlsgra012/Documents/CSC2001F/DS2_Prac1/makefile"/>
-<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" uri="file:/home/w/wlsgra012/Documents/CSC2001F/DS2_Prac1/src/dictionary/Monitorable.java"/>
 <editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" uri="file:/home/w/wlsgra012/Documents/CSC2001F/DS2_Prac1/src/dictionary/SCHashTable.java"/>
-<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" uri="file:/home/w/wlsgra012/Documents/CSC2001F/DS2_Prac1/src/dictionary/Entry.java"/>
-<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" uri="file:/home/w/wlsgra012/Documents/CSC2001F/DS2_Prac1/src/dictionary/Definition.java"/>
-<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" uri="file:/home/w/wlsgra012/Documents/CSC2001F/DS2_Prac1/src/dictionary/LPHashTable.java"/>
 </editors>
-<item historyLabel="QPHashTable.java" index="3">
-<position info="not_deleted" x="800" y="0"/>
-</item>
-<item historyLabel="AbstractHashTable.java" index="1">
-<position info="not_deleted" x="2296" y="0"/>
-</item>
-<item historyLabel="QPHashTable.java" index="3">
-<position info="not_deleted" x="627" y="14"/>
-</item>
-<item historyLabel="LoadTest.java" index="0">
-<position info="not_deleted" x="1785" y="0"/>
-</item>
-<item historyLabel="AbstractHashTable.java" index="1">
-<position info="not_deleted" x="2292" y="4"/>
-</item>
-<item historyLabel="Loader.java" index="2">
-<position info="not_deleted" x="2432" y="0"/>
-</item>
-<item historyLabel="Monitorable.java" index="5">
+<item historyLabel="DataReader.java" index="3">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="QPHashTable.java" index="3">
-<position info="not_deleted" x="899" y="3"/>
+<item historyLabel="SearchTest.java" index="1">
+<position info="not_deleted" x="1336" y="0"/>
 </item>
-<item historyLabel="AbstractHashTable.java" index="1">
-<position info="not_deleted" x="2090" y="9"/>
+<item historyLabel="DataReader.java" index="3">
+<position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="LoadTest.java" index="0">
-<position info="not_deleted" x="1590" y="26"/>
+<item historyLabel="SearchTest.java" index="1">
+<position info="not_deleted" x="1428" y="0"/>
 </item>
-<item historyLabel="QPHashTable.java" index="3">
-<position info="not_deleted" x="755" y="10"/>
+<item historyLabel="Randomizer.java" index="2">
+<position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="AbstractHashTable.java" index="1">
-<position info="not_deleted" x="2540" y="10"/>
+<item historyLabel="SearchTest.java" index="1">
+<position info="not_deleted" x="1428" y="0"/>
 </item>
-<item historyLabel="LoadTest.java" index="0">
-<position info="not_deleted" x="1503" y="10"/>
+<item historyLabel="Randomizer.java" index="2">
+<position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="Loader.java" index="2">
-<position info="not_deleted" x="2536" y="0"/>
+<item historyLabel="DataReader.java" index="3">
+<position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="AbstractHashTable.java" index="1">
-<position info="not_deleted" x="2540" y="10"/>
+<item historyLabel="Randomizer.java" index="2">
+<position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="QPHashTable.java" index="3">
-<position info="not_deleted" x="755" y="10"/>
-</item>
-<item historyLabel="AbstractHashTable.java" index="1">
-<position info="not_deleted" x="2540" y="10"/>
-</item>
-<item historyLabel="QPHashTable.java" index="3">
-<position info="not_deleted" x="740" y="5"/>
-</item>
-<item historyLabel="makefile" index="4">
-<position info="not_deleted" x="1689" y="0"/>
-</item>
-<item historyLabel="QPHashTable.java" index="3">
+<item historyLabel="SearchTest.java" index="1">
 <position/>
 </item>
-<item historyLabel="makefile" index="4">
-<position info="not_deleted" x="1703" y="0"/>
-</item>
-<item historyLabel="QPHashTable.java" index="3">
-<position info="not_deleted" x="1156" y="0"/>
-</item>
-<item historyLabel="AbstractHashTable.java" index="1">
-<position info="not_deleted" x="1963" y="66"/>
-</item>
-<item historyLabel="QPHashTable.java" index="3">
-<position info="not_deleted" x="1156" y="0"/>
-</item>
-<item historyLabel="QPHashTable.java" index="3">
-<position info="not_deleted" x="747" y="0"/>
-</item>
-<item historyLabel="makefile" index="4">
-<position info="not_deleted" x="1630" y="0"/>
-</item>
-<item historyLabel="Loader.java" index="2">
-<position info="not_deleted" x="2432" y="0"/>
-</item>
-<item historyLabel="QPHashTable.java" index="3">
-<position info="not_deleted" x="747" y="0"/>
-</item>
-<item historyLabel="Loader.java" index="2">
-<position info="not_deleted" x="2432" y="0"/>
-</item>
-<item historyLabel="AbstractHashTable.java" index="1">
-<position info="not_deleted" x="2104" y="0"/>
-</item>
-<item historyLabel="LoadTest.java" index="0">
-<position info="not_deleted" x="1483" y="32"/>
-</item>
-<item historyLabel="AbstractHashTable.java" index="1">
-<position info="not_deleted" x="2104" y="0"/>
-</item>
-<item historyLabel="QPHashTable.java" index="3">
-<position info="not_deleted" x="747" y="0"/>
-</item>
-<item historyLabel="makefile" index="4">
-<position info="not_deleted" x="1688" y="0"/>
-</item>
-<item historyLabel="SCHashTable.java" index="6">
+<item historyLabel="Randomizer.java" index="2">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="QPHashTable.java" index="3">
-<position info="not_deleted" x="1269" y="0"/>
+<item historyLabel="SearchTest.java" index="1">
+<position/>
 </item>
-<item historyLabel="makefile" index="4">
-<position info="not_deleted" x="854" y="12"/>
+<item historyLabel="makefile" index="0">
+<position info="not_deleted" x="983" y="0"/>
 </item>
-<item historyLabel="AbstractHashTable.java" index="1">
-<position info="not_deleted" x="338" y="0"/>
+<item historyLabel="Randomizer.java" index="2">
+<position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="Entry.java" index="7">
-<position info="not_deleted" x="331" y="7"/>
+<item historyLabel="SearchTest.java" index="1">
+<position/>
 </item>
-<item historyLabel="Definition.java" index="8">
-<position info="not_deleted" x="233" y="4"/>
+<item historyLabel="makefile" index="0">
+<position info="not_deleted" x="983" y="0"/>
 </item>
-<item historyLabel="AbstractHashTable.java" index="1">
-<position info="not_deleted" x="258" y="5"/>
+<item historyLabel="DataReader.java" index="3">
+<position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="makefile" index="4">
-<position info="not_deleted" x="740" y="212"/>
+<item historyLabel="makefile" index="0">
+<position info="not_deleted" x="983" y="0"/>
 </item>
-<item historyLabel="LPHashTable.java" index="9">
-<position info="not_deleted" x="623" y="5"/>
+<item historyLabel="SearchTest.java" index="1">
+<position/>
 </item>
-<item historyLabel="AbstractHashTable.java" index="1">
-<position info="not_deleted" x="2490" y="0"/>
+<item historyLabel="Nonsense.java" index="4">
+<position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="LPHashTable.java" index="9">
-<position info="not_deleted" x="623" y="5"/>
+<item historyLabel="SearchTest.java" index="1">
+<position/>
 </item>
-<item historyLabel="AbstractHashTable.java" index="1">
-<position info="not_deleted" x="1165" y="2"/>
+<item historyLabel="SearchTest.java" index="1">
+<position info="not_deleted" x="1428" y="0"/>
 </item>
-<item historyLabel="LPHashTable.java" index="9">
-<position info="not_deleted" x="1058" y="0"/>
+<item historyLabel="Nonsense.java" index="4">
+<position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="QPHashTable.java" index="3">
-<position info="not_deleted" x="1169" y="0"/>
+<item historyLabel="QPHashTable.java" index="5">
+<position info="not_deleted" x="1036" y="0"/>
 </item>
-<item historyLabel="AbstractHashTable.java" index="1">
-<position info="not_deleted" x="2280" y="16"/>
+<item historyLabel="SearchTest.java" index="1">
+<position info="not_deleted" x="1428" y="0"/>
 </item>
-<item active="true" historyLabel="QPHashTable.java" index="3">
-<position info="not_deleted" x="1169" y="0"/>
+<item historyLabel="Nonsense.java" index="4">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="SearchTest.java" index="1">
+<position info="not_deleted" x="1428" y="0"/>
+</item>
+<item historyLabel="Monitorable.java" index="6">
+<position info="not_deleted" x="793" y="17"/>
+</item>
+<item historyLabel="SearchTest.java" index="1">
+<position info="not_deleted" x="2213" y="0"/>
+</item>
+<item historyLabel="SearchTest.java" index="1">
+<position/>
+</item>
+<item historyLabel="SearchTest.java" index="1">
+<position/>
+</item>
+<item historyLabel="SearchTest.java" index="1">
+<position/>
+</item>
+<item historyLabel="SearchTest.java" index="1">
+<position/>
+</item>
+<item historyLabel="Randomizer.java" index="2">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="SearchTest.java" index="1">
+<position/>
+</item>
+<item historyLabel="Nonsense.java" index="4">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Randomizer.java" index="2">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Nonsense.java" index="4">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Randomizer.java" index="2">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="SearchTest.java" index="1">
+<position/>
+</item>
+<item historyLabel="Randomizer.java" index="2">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="SearchTest.java" index="1">
+<position/>
+</item>
+<item historyLabel="LoadTest.java" index="7">
+<position info="not_deleted" x="1721" y="0"/>
+</item>
+<item historyLabel="AbstractHashTable.java" index="8">
+<position info="not_deleted" x="1883" y="11"/>
+</item>
+<item historyLabel="Loader.java" index="9">
+<position info="not_deleted" x="1527" y="69"/>
+</item>
+<item historyLabel="SearchTest.java" index="1">
+<position/>
+</item>
+<item historyLabel="SearchTest.java" index="1">
+<position info="not_deleted" x="2135" y="0"/>
+</item>
+<item historyLabel="QPHashTable.java" index="5">
+<position info="not_deleted" x="1239" y="10"/>
+</item>
+<item historyLabel="SearchTest.java" index="1">
+<position info="not_deleted" x="2135" y="0"/>
+</item>
+<item active="true" historyLabel="SCHashTable.java" index="10">
+<position info="not_deleted" x="1565" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -417,6 +423,9 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SearchTest.java" tooltip="/home/w/wlsgra012/Documents/CSC2001F/DS2_Prac1/test/SearchTest.java">
+<persistable uri="file:/home/w/wlsgra012/Documents/CSC2001F/DS2_Prac1/test/SearchTest.java"/>
+</file>
 <file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.cdt.make.editor" name="makefile" tooltip="/home/w/wlsgra012/Documents/CSC2001F/DS2_Prac1/makefile">
 <persistable uri="file:/home/w/wlsgra012/Documents/CSC2001F/DS2_Prac1/makefile"/>
 </file>
@@ -458,9 +467,6 @@
 </file>
 <file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Randomizer.java" tooltip="/home/w/wlsgra012/Documents/CSC2001F/DS2_Prac1/test/Randomizer.java">
 <persistable uri="file:/home/w/wlsgra012/Documents/CSC2001F/DS2_Prac1/test/Randomizer.java"/>
-</file>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PrimeSequence.java" tooltip="/home/w/wlsgra012/Documents/CSC2001F/DS2_Prac1/test/PrimeSequence.java">
-<persistable uri="file:/home/w/wlsgra012/Documents/CSC2001F/DS2_Prac1/test/PrimeSequence.java"/>
 </file>
 </mruList>
 </workbench>

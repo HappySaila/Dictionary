@@ -38,9 +38,9 @@ public class SCHashTable extends AbstractHashTable {
 		ChainedEntry head = table[index];
 		incProbeCount();//increase probe number for initial probe
 		if (loadFactor()==1){
-			rebuild();
+			//rebuild();
 		}
-		else if (table[index]==null){
+		if (table[index]==null){
 			incProbeCount();//another probe to traverse to next chain
 			table[index]=new ChainedEntry(word, null);
 			table[index].addDefinition(definition);
@@ -129,5 +129,13 @@ public class SCHashTable extends AbstractHashTable {
 	public ChainedEntry[] getTable(){
 		return this.table;
 	}
+	public void dump() {
+		ChainedEntry[] table = this.table;
+		for(int i=0; i<table.length; i++) {
+			System.out.printf("\n%4d : %s", i, table[i]);
+		}
+		System.out.printf("\n#Entries: %d.", this.entries);
+	}
+
 }
 

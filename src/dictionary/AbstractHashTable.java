@@ -50,7 +50,7 @@ public abstract class AbstractHashTable  extends Monitorable implements Dictiona
 		// Your code here. convert string into an integer and search table until word is found
 		//instantioation
 		int index = findIndex(word);
-		if (table[hashVal]!=null){
+		if (table[index]!=null){
 			return true;
 		}
 		return false;

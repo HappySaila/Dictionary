@@ -42,5 +42,6 @@ public class LoadTest {
         }
         System.out.println("loadFactor: "+table.loadFactor());
         System.out.println("Probes: "+table.getProbeCount());
+        System.out.println("The entries are: "+table.size());
     }
 }
