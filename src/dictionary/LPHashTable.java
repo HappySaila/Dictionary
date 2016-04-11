@@ -18,13 +18,14 @@ public class LPHashTable extends AbstractHashTable {
 	 * Create an LPHashTable with the given default size table.
 	 */
 	public LPHashTable(int size) { super(size); }  
-	
-	public int findIndex(String word) {
+	@Override
+	protected int findIndex(String word) {
 		// Implementation of findIndex() required here.
 		int hashVal = hashFunction(word);
 		int size = size();
 		int iterator = table.length;
 		while(true){
+			incProbeCount();//probe started/restarted
 			if (loadFactor()==1){
 				//table is full
 				return -1;
@@ -38,7 +39,7 @@ public class LPHashTable extends AbstractHashTable {
 				return hashVal;
 			}
 			else {
-				//it is a different word
+				//it is a different word, LP
 				hashVal++;
 				if (hashVal>iterator-1){
 					hashVal = 0;

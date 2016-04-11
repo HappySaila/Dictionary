@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../.resources/report.css" type="text/css"/><link rel="shortcut icon" href="../.resources/report.gif" type="image/gif"/><title>AbstractHashTable.java</title><link rel="stylesheet" href="../.resources/prettify.css" type="text/css"/><script type="text/javascript" src="../.resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../.sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">.</a> &gt; <a href="index.source.html" class="el_package">dictionary</a> &gt; <span class="el_source">AbstractHashTable.java</span></div><h1>AbstractHashTable.java</h1><pre class="source lang-java linenums">//WLSGRA012
+package dictionary;
+import java.util.List;
+/**
+ * Abstract implementation of dictionary using hash table.
+ * 
+ * @author Stephan Jamieson 
+ * @version 24/4/2015
+ */
+public abstract class AbstractHashTable  extends Monitorable implements Dictionary {
+	public final static int DEFAULT_SIZE = 50;
+
+	protected Entry[] table;
+	protected int entries;
+
+	/**
+	 * Create a table with DEFAULT_SIZE. (For use by sub classes.)
+	 */
+<span class="fc" id="L19">	protected AbstractHashTable() { this(DEFAULT_SIZE); }</span>
+
+	/**
+	 * Create a table with the given default size. (For use by sub classes.) 
+	 */
+<span class="fc" id="L24">	protected AbstractHashTable(final int size) { </span>
+<span class="fc" id="L25">		this.table = new Entry[size];</span>
+<span class="fc" id="L26">		this.entries = 0;</span>
+<span class="fc" id="L27">	}</span>
+
+	/**
+	 * Generate a hash code for the given key using algorithm in Weiss. (For use by sub classes.)
+	 */
+	protected int hashFunction(String key) {
+		// Your code here. convert string into an integer and then convert integer into smaller value using hash function.
+<span class="fc" id="L34">		int hashVal = 0;</span>
+		//function to calculate formula 20.2 in weiss
+<span class="fc bfc" id="L36" title="All 2 branches covered.">		for( int i = 0; i &lt; key.length( ); i++ )</span>
+<span class="fc" id="L37">			hashVal = ( hashVal * 128 + key.charAt( i ) ) % table.length;</span>
+<span class="fc" id="L38">		return hashVal;</span>
+	}
+
+	public boolean containsWord(String word) {
+		// Your code here. convert string into an integer and search table until word is found
+		//instantioation
+<span class="fc" id="L44">		int hashVal = hashFunction(word);</span>
+<span class="fc" id="L45">		String storedVal = &quot;&quot;;</span>
+<span class="fc bfc" id="L46" title="All 2 branches covered.">		if (table[hashVal]!=null){</span>
+<span class="fc" id="L47">			storedVal = table[hashVal].getWord();</span>
+		}
+<span class="fc" id="L49">		return storedVal.equals(word);</span>
+	}
+
+	public List&lt;Definition&gt; getDefinitions(String word) {
+		// Your code here. 
+<span class="fc" id="L54">		int index = findIndex(word);</span>
+<span class="fc bfc" id="L55" title="All 2 branches covered.">		if (table[index]!=null){</span>
+<span class="fc" id="L56">			return table[hashFunction(word)].getDefinitions();</span>
+		}
+<span class="fc" id="L58">		return null;</span>
+	}
+
+	public void insert(String word, Definition definition) {        
+		// Your code here. Need to create a new Entry object
+		//inserts value with no linear probe... If space is already occupied then the word will not be added
+<span class="fc" id="L64">		Entry entry = new Entry(word);</span>
+<span class="fc" id="L65">		entry.addDefinition(definition);</span>
+<span class="fc" id="L66">		int index = findIndex(word);</span>
+		
+<span class="fc bfc" id="L68" title="All 2 branches covered.">		if (index==-1){</span>
+<span class="nc" id="L69">			rebuild();</span>
+		}
+<span class="fc bfc" id="L71" title="All 2 branches covered.">		else if (table[index]==null){</span>
+<span class="fc" id="L72">			table[index]=entry;</span>
+<span class="fc" id="L73">			entries++;</span>
+<span class="pc bpc" id="L74" title="1 of 2 branches missed.">		}else if (table[index].getWord().equals(word)){</span>
+<span class="fc" id="L75">			table[index].addDefinition(definition);</span>
+		}
+<span class="fc" id="L77">	}</span>
+
+
+<span class="nc bnc" id="L80" title="All 2 branches missed.">	public boolean isEmpty() { return entries == 0; }</span>
+
+<span class="nc" id="L82">	public void empty() { this.table = new Entry[this.table.length]; this.entries=0; }</span>
+
+<span class="fc" id="L84">	public int size() { return this.entries; }</span>
+
+	/* Hash Table Functions */
+
+<span class="fc" id="L88">	public double loadFactor() { return entries/(double)table.length; }</span>
+
+	/**
+	 * Method called by &lt;code&gt;insert()&lt;/code&gt; when the table needs enlarging.
+	 * &lt;p&gt;
+	 * Sub classes should override as required.
+	 */
+	protected void rebuild() {
+<span class="fc" id="L96">		throw new IllegalStateException(&quot;Hashtable:insert(): table is full.&quot;);</span>
+	}
+
+
+	/**
+	 * Find the index for entry: if entry is in the table, then returns its position; 
+	 * if it is not in the table then returns the index of the first free slot.
+	 * Returns -1 if a slot is not found (such as when the table is full under LP).
+	 * 
+	 */
+	public abstract int findIndex(String word);
+
+
+
+	/**
+	 * Prints contents of table to screen. (Method provided to facilitate testing and debugging.) 
+	 */
+	public void dump() {
+<span class="fc" id="L114">		Entry[] table = this.table;</span>
+<span class="fc bfc" id="L115" title="All 2 branches covered.">		for(int i=0; i&lt;table.length; i++) {</span>
+<span class="fc" id="L116">			System.out.printf(&quot;\n%4d : %s&quot;, i, table[i]);</span>
+		}
+<span class="fc" id="L118">		System.out.printf(&quot;\n#Entries: %d.&quot;, this.entries);</span>
+<span class="fc" id="L119">	}</span>
+
+	/**
+	 * Obtain a list of the entries in the dictionary. (Method to facilitate testing and debugging.) 
+	 */
+	public java.util.ArrayList&lt;Entry&gt; getWords() {
+<span class="nc" id="L125">		java.util.ArrayList&lt;Entry&gt; entries = new java.util.ArrayList&lt;Entry&gt;();</span>
+<span class="nc bnc" id="L126" title="All 2 branches missed.">		for (int i=0; i&lt;this.table.length; i++) {</span>
+<span class="nc bnc" id="L127" title="All 2 branches missed.">			if (this.table[i]!=null) {</span>
+<span class="nc" id="L128">				entries.add(table[i]);</span>
+			}
+		}
+<span class="nc" id="L131">		return entries;</span>
+	}
+	public void view(String word){
+<span class="nc" id="L134">		System.out.println(&quot;The key that the word hashes to is: &quot;+hashFunction(word));</span>
+<span class="nc" id="L135">	}</span>
+	public int getLength(){
+<span class="nc" id="L137">		return table.length;</span>
+	}
+	public Entry[] getTable(){
+<span class="fc" id="L140">		return this.table;</span>
+	}
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.eclemma.org/jacoco">JaCoCo</a> 0.7.5.201505241946</span></div></body></html>

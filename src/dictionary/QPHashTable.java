@@ -28,28 +28,31 @@ public class QPHashTable extends AbstractHashTable {
 		int probeValue = hashVal; //can change with every unsuccesful probe
 		
 		while(true){
-			if (loadFactor()>0.5){
+			incProbeCount(); //probe started/restarted
+			if (loadFactor()>1){
 				//table needs rehashing
 				//resizes the table
 				/*table = rehash(table);
 				iterator = table.length-1;*/
 				return -1;
 			}
-			else if (table[hashVal]==null && hashVal<iterator){
+			else if (table[hashVal]==null){
 				//empty slot, insert the word
+				return hashVal;
+			}
+			else if (table[hashVal].getWord().equals(word)){
+				//words are the same. add def
 				return hashVal;
 			}
 			else {
 				//current slot taken and need to reprobe
 				probe++;
 				hashVal = probeValue + (int)Math.pow(probe,2);
-				while (hashVal>iterator){
-					hashVal -= table.length;
-				}
+				hashVal %= table.length;
 			}
 		}
 	}
-	protected Entry[] rehash(Entry[] oldArray){
+	/*protected Entry[] rehash(Entry[] oldArray){
 		// Create a new, empty table
 		QPHashTable newTable = allocateArray( nextPrime( 4 * oldArray.length));
 		// Copy table over
@@ -83,5 +86,5 @@ public class QPHashTable extends AbstractHashTable {
 			}
 		}
 		return true;
-	}
+	}*/
 }

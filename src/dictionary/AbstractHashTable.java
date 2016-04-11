@@ -31,22 +31,29 @@ public abstract class AbstractHashTable  extends Monitorable implements Dictiona
 	 */
 	protected int hashFunction(String key) {
 		// Your code here. convert string into an integer and then convert integer into smaller value using hash function.
-		int hashVal = 0;
+		/*int hashVal = 0;
 		//function to calculate formula 20.2 in weiss
 		for( int i = 0; i < key.length( ); i++ )
 			hashVal = ( hashVal * 128 + key.charAt( i ) ) % table.length;
+		return hashVal;*/
+		int tableSize = this.table.length;
+		int hashVal = 0;
+		for( int i = 0; i < key.length( ); i++ )
+			hashVal = 37 * hashVal + key.charAt( i );
+		hashVal %= tableSize;
+		if( hashVal < 0 )
+			hashVal += tableSize;
 		return hashVal;
 	}
 
 	public boolean containsWord(String word) {
 		// Your code here. convert string into an integer and search table until word is found
 		//instantioation
-		int hashVal = hashFunction(word);
-		String storedVal = "";
+		int index = findIndex(word);
 		if (table[hashVal]!=null){
-			storedVal = table[hashVal].getWord();
+			return true;
 		}
-		return storedVal.equals(word);
+		return false;
 	}
 
 	public List<Definition> getDefinitions(String word) {
@@ -64,7 +71,7 @@ public abstract class AbstractHashTable  extends Monitorable implements Dictiona
 		Entry entry = new Entry(word);
 		entry.addDefinition(definition);
 		int index = findIndex(word);
-		
+
 		if (index==-1){
 			rebuild();
 		}
@@ -74,7 +81,6 @@ public abstract class AbstractHashTable  extends Monitorable implements Dictiona
 		}else if (table[index].getWord().equals(word)){
 			table[index].addDefinition(definition);
 		}
-		incProbeCount();
 	}
 
 
@@ -104,7 +110,7 @@ public abstract class AbstractHashTable  extends Monitorable implements Dictiona
 	 * Returns -1 if a slot is not found (such as when the table is full under LP).
 	 * 
 	 */
-	public abstract int findIndex(String word);
+	protected abstract int findIndex(String word);
 
 
 

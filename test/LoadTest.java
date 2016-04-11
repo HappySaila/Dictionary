@@ -24,6 +24,7 @@ public class LoadTest {
         // Create a dictionary object from the class name and table size given as command line arguments.
         final AbstractHashTable table = createTable(args[0], Integer.parseInt(args[1]));
         final Loader loader = new Loader(table);
+        boolean hasDumped = false;
 
         // Your code here.
         System.out.println("Hoorah!");
@@ -34,6 +35,12 @@ public class LoadTest {
         catch(Exception e){
         	table.dump();
         	System.out.println(e.getMessage());
+        	hasDumped=true;
         }
+        if (!hasDumped){
+        	table.dump();
+        }
+        System.out.println("loadFactor: "+table.loadFactor());
+        System.out.println("Probes: "+table.getProbeCount());
     }
 }

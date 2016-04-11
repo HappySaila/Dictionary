@@ -35,8 +35,13 @@ public class SCHashTable extends AbstractHashTable {
 		//inserts value with no linear probe... If space is already occupied then the word will not be added
 		int index = findIndex(word);
 		ChainedEntry temp;
-
-		if (table[index]==null){
+		ChainedEntry head = table[index];
+		incProbeCount();//increase probe number for initial probe
+		if (loadFactor()==1){
+			rebuild();
+		}
+		else if (table[index]==null){
+			incProbeCount();//another probe to traverse to next chain
 			table[index]=new ChainedEntry(word, null);
 			table[index].addDefinition(definition);
 			entries++;
@@ -45,13 +50,14 @@ public class SCHashTable extends AbstractHashTable {
 			//if the slot is already taken
 			temp = table[index]; //create temp chainedEntry so that we can iterate through the linked list
 			while (true){
-				if (temp.getWord()==word){
+				incProbeCount();//another probe to traverse to next chain
+				if (temp.getWord().equals(word)){
 					table[index].addDefinition(definition);
 					return;
 				}
 				else if(temp.getNext()==null){
 					//checked all words for a similar word
-					ChainedEntry entry = new ChainedEntry(word, temp);
+					ChainedEntry entry = new ChainedEntry(word, head);
 					entry.addDefinition(definition);
 					table[index]=entry;
 					entries++;
@@ -77,7 +83,7 @@ public class SCHashTable extends AbstractHashTable {
 			//words are at the index in the table
 			temp = table[index];
 			while(temp.getNext()!=null)
-				if (temp.getWord()==word){
+				if (temp.getWord().equals(word)){
 					return true;
 				}
 				else{
@@ -85,7 +91,7 @@ public class SCHashTable extends AbstractHashTable {
 				}
 		}
 		//perform one more check for final link
-		if (temp.getWord()==word){
+		if (temp.getWord().equals(word)){
 			return true;
 		}
 		else{
@@ -104,7 +110,7 @@ public class SCHashTable extends AbstractHashTable {
 			//slot at index is not null
 			temp = table[index];
 			while(temp.getNext()!=null){
-				if (temp.getWord().equals("word")){
+				if (temp.getWord().equals(word)){
 					return temp.getDefinitions();
 				}
 				else{
@@ -112,7 +118,7 @@ public class SCHashTable extends AbstractHashTable {
 				}
 			}
 			//one more time for final link
-			if (temp.getWord().equals("word")){
+			if (temp.getWord().equals(word)){
 				return temp.getDefinitions();
 			}
 			else{

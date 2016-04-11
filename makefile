@@ -2,7 +2,7 @@
 
 LIB = ../lib
 SRCDIR = src
-BINDIR = src/bin
+BINDIR = bin
 TESTDIR = test
 DOCDIR = doc
 
@@ -30,11 +30,11 @@ vpath %.class $(SRCDIR)/$(BINDIR)
 
 all: Monitorable.class WordType.class Definition.class Entry.class ChainedEntry.class Dictionary.class\
 	AbstractHashTable.class LPHashTable.class QPHashTable.class SCHashTable.class Loader.class\
-	LoadTest.class
+	LoadTest.class Harness.class\
 
 # Rules for unit testing
 # Add additional Testxx.class file to this line and to TestSuite.java
-test_classes: all 
+test_classes: all TestLPHashTable.class TestQPHashTable.class TestSCHashTable.class TestSuite.class
 
 test: test_classes
 	java -ea -cp $(BINDIR):$(JUNIT) org.junit.runner.JUnitCore TestSuite
@@ -53,4 +53,8 @@ clean:
 	@rm -Rf coveragereport
 	@rm -Rf doc
 run: clean all
-	java -cp $(BINDIR) LoadTest dictionary.LPHashTable 100 lexicon.txt
+	java -cp $(BINDIR) LoadTest dictionary.LPHashTable 1000 lexicon.txt
+re:
+	java -cp $(BINDIR) LoadTest dictionary.QPHashTable 1999 lexicon.txt
+harn: all
+	java -cp $(BINDIR) Harness

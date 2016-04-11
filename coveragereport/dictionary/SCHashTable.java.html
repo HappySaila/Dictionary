@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../.resources/report.css" type="text/css"/><link rel="shortcut icon" href="../.resources/report.gif" type="image/gif"/><title>SCHashTable.java</title><link rel="stylesheet" href="../.resources/prettify.css" type="text/css"/><script type="text/javascript" src="../.resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../.sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">.</a> &gt; <a href="index.source.html" class="el_package">dictionary</a> &gt; <span class="el_source">SCHashTable.java</span></div><h1>SCHashTable.java</h1><pre class="source lang-java linenums">//WLSGRA012
+package dictionary;
+import java.util.List;
+/**
+ * Simple hash table implementation of Dictionary using Sequencial chaining.
+ * 
+ * @author Stephan Jamieson 
+ * @version 24/4/2015
+ */
+public class SCHashTable extends AbstractHashTable {
+
+	protected ChainedEntry[] table; 
+	/**
+	 * Create an SCHashTable with DEFAULT_SIZE table.
+	 */ 
+	public SCHashTable() {
+<span class="fc" id="L17">		this(DEFAULT_SIZE); </span>
+<span class="fc" id="L18">	}</span>
+
+	/**
+	 * Create an SCHashTable with the given default size table.
+	 */
+	public SCHashTable(int size) { 
+<span class="fc" id="L24">		super(size);</span>
+<span class="fc" id="L25">		this.table = new ChainedEntry[size];</span>
+<span class="fc" id="L26">		this.entries = 0;</span>
+<span class="fc" id="L27">	}  </span>
+
+	public int findIndex(String word) {
+		// Implementation of findIndex() required here.
+<span class="fc" id="L31">		return hashFunction(word);</span>
+	}
+	public void insert(String word, Definition definition) {        
+		// Your code here. Need to create a new Entry object
+		//inserts value with no linear probe... If space is already occupied then the word will not be added
+<span class="fc" id="L36">		int index = findIndex(word);</span>
+		ChainedEntry temp;
+<span class="fc" id="L38">		ChainedEntry head = table[index];</span>
+<span class="fc" id="L39">		incProbeCount();//increase probe number for initial probe</span>
+<span class="fc bfc" id="L40" title="All 2 branches covered.">		if (loadFactor()==1){</span>
+<span class="nc" id="L41">			rebuild();</span>
+		}
+<span class="fc bfc" id="L43" title="All 2 branches covered.">		else if (table[index]==null){</span>
+<span class="fc" id="L44">			table[index]=new ChainedEntry(word, null);</span>
+<span class="fc" id="L45">			table[index].addDefinition(definition);</span>
+<span class="fc" id="L46">			entries++;</span>
+		}
+		else {
+			//if the slot is already taken
+<span class="fc" id="L50">			temp = table[index]; //create temp chainedEntry so that we can iterate through the linked list</span>
+			while (true){
+<span class="fc bfc" id="L52" title="All 2 branches covered.">				if (temp.getWord().equals(word)){</span>
+<span class="fc" id="L53">					table[index].addDefinition(definition);</span>
+<span class="fc" id="L54">					return;</span>
+				}
+<span class="fc bfc" id="L56" title="All 2 branches covered.">				else if(temp.getNext()==null){</span>
+					//checked all words for a similar word
+<span class="fc" id="L58">					ChainedEntry entry = new ChainedEntry(word, head);</span>
+<span class="fc" id="L59">					entry.addDefinition(definition);</span>
+<span class="fc" id="L60">					table[index]=entry;</span>
+<span class="fc" id="L61">					entries++;</span>
+<span class="fc" id="L62">					return;</span>
+				}
+				else{
+					//entry contains a link that needs to be checked
+<span class="fc" id="L66">					temp = temp.getNext();</span>
+<span class="fc" id="L67">					incProbeCount();//another probe to traverse to next chain</span>
+				}
+			}
+		}
+
+<span class="fc" id="L72">	}</span>
+	public boolean containsWord(String word) {
+		// Your code here. convert string into an integer and search table until word is found
+		//instantioation
+<span class="fc" id="L76">		int index = findIndex(word);</span>
+		ChainedEntry temp;
+<span class="fc bfc" id="L78" title="All 2 branches covered.">		if (table[index]==null){</span>
+<span class="fc" id="L79">			return false;</span>
+		}
+		else{
+			//words are at the index in the table
+<span class="fc" id="L83">			temp = table[index];</span>
+<span class="pc bpc" id="L84" title="1 of 2 branches missed.">			while(temp.getNext()!=null)</span>
+<span class="pc bpc" id="L85" title="1 of 2 branches missed.">				if (temp.getWord()==word){</span>
+<span class="fc" id="L86">					return true;</span>
+				}
+				else{
+<span class="nc" id="L89">					temp = temp.getNext();</span>
+				}
+		}
+		//perform one more check for final link
+<span class="nc bnc" id="L93" title="All 2 branches missed.">		if (temp.getWord()==word){</span>
+<span class="nc" id="L94">			return true;</span>
+		}
+		else{
+<span class="nc" id="L97">			return false;</span>
+		}
+	}
+	public List&lt;Definition&gt; getDefinitions(String word) {
+		// Your code here. 
+<span class="fc" id="L102">		int index = findIndex(word);</span>
+		ChainedEntry temp;
+		
+<span class="fc bfc" id="L105" title="All 2 branches covered.">		if (table[index]==null){</span>
+<span class="fc" id="L106">			return null;</span>
+		}
+		else {
+			//slot at index is not null
+<span class="fc" id="L110">			temp = table[index];</span>
+<span class="fc bfc" id="L111" title="All 2 branches covered.">			while(temp.getNext()!=null){</span>
+<span class="fc bfc" id="L112" title="All 2 branches covered.">				if (temp.getWord().equals(word)){</span>
+<span class="fc" id="L113">					return temp.getDefinitions();</span>
+				}
+				else{
+<span class="fc" id="L116">					temp = temp.getNext();</span>
+				}
+			}
+			//one more time for final link
+<span class="fc bfc" id="L120" title="All 2 branches covered.">			if (temp.getWord().equals(word)){</span>
+<span class="fc" id="L121">				return temp.getDefinitions();</span>
+			}
+			else{
+<span class="fc" id="L124">				return null;</span>
+			}
+		}
+	}
+	public ChainedEntry[] getTable(){
+<span class="fc" id="L129">		return this.table;</span>
+	}
+}
+
+</pre><div class="footer"><span class="right">Created with <a href="http://www.eclemma.org/jacoco">JaCoCo</a> 0.7.5.201505241946</span></div></body></html>

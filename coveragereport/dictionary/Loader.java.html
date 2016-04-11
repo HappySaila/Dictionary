@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../.resources/report.css" type="text/css"/><link rel="shortcut icon" href="../.resources/report.gif" type="image/gif"/><title>Loader.java</title><link rel="stylesheet" href="../.resources/prettify.css" type="text/css"/><script type="text/javascript" src="../.resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../.sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">.</a> &gt; <a href="index.source.html" class="el_package">dictionary</a> &gt; <span class="el_source">Loader.java</span></div><h1>Loader.java</h1><pre class="source lang-java linenums">package dictionary;
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
+//
+import java.util.List;
+import java.util.Scanner;
+/**
+ * Utility for loading a dictionary data from a file.
+ * File format (in ad-hoc BNF):
+ * &lt;p&gt;
+ * &amp;lt;lexicion&amp;gt;::={&amp;lt;entry&amp;gt;}&lt;/br&gt;
+ * &amp;lt;entry&amp;gt;::=&amp;lt;word type&amp;gt; : &amp;lt;word&amp;gt; : [&amp;lt;description&amp;gt;]&lt;/br&gt;
+ * &amp;lt;word type&amp;gt;::=a | v | n&lt;/br&gt;
+ * &amp;lt;word&amp;gt;::={&amp;lt;letter&amp;gt;}&lt;/br&gt;
+ * &amp;lt;description&amp;gt;::={&amp;lt;character&amp;gt;}
+ * &lt;p&gt;
+ * The file contains 0 or more entries. An entry consists of word type followed by a colon, 
+ * followed by the word, followed by a colon, optionally followed by a description.
+ * &lt;p&gt;
+ * The word type is represented by a single character: 'a' or 'n' or 'v'. 
+ * &lt;p&gt;
+ * A word consists of a sequence of one or more letters.
+ * &lt;p&gt;
+ * A descrption consists of 1 or more characters (generally, it's a word phrase).
+ * 
+ * @author Stephan Jamieson
+ * @version 20/3/2016
+ */
+<span class="nc bnc" id="L32" title="All 2 branches missed.">public class Loader {</span>
+
+    private Dictionary dictionary;    
+
+<span class="nc" id="L36">    public Loader(final Dictionary target) {</span>
+<span class="nc" id="L37">        this.dictionary=target;</span>
+<span class="nc" id="L38">    }</span>
+
+    /**
+     * Obtain the target dictionary that this Loader operates upon.
+     */
+<span class="nc" id="L43">    public Dictionary target() { return this.dictionary; }</span>
+    
+    /**
+     * Parse a single entry from the given string and insert it in the target.
+     */
+    public void load(final String entry) {
+<span class="nc" id="L49">        final Scanner scanner = new Scanner(entry).useDelimiter(&quot;\\s*:\\s*&quot;);</span>
+<span class="nc" id="L50">        final WordType wordType = WordType.toWordType(scanner.next());</span>
+<span class="nc" id="L51">        final String word = scanner.next();</span>
+<span class="nc" id="L52">        String description = &quot;&quot;;</span>
+<span class="nc bnc" id="L53" title="All 2 branches missed.">        if (scanner.hasNext()) {</span>
+<span class="nc" id="L54">            description = scanner.next(); </span>
+        }
+<span class="nc" id="L56">        final Definition definition = new Definition(wordType, description);</span>
+<span class="nc" id="L57">        dictionary.insert(word, definition);</span>
+<span class="nc" id="L58">    }</span>
+    
+    /**
+     * Parse the given file, inserting the results in the target.
+     */
+    public void loader(final File file) throws FileNotFoundException, IOException { 
+<span class="nc bnc" id="L64" title="All 6 branches missed.">        assert(dictionary!=null &amp;&amp; file!=null);</span>
+<span class="nc" id="L65">        BufferedReader reader = new BufferedReader(new FileReader(file));      </span>
+<span class="nc" id="L66">        String line = reader.readLine();</span>
+<span class="nc bnc" id="L67" title="All 2 branches missed.">        while(line!=null) {</span>
+<span class="nc" id="L68">            this.load(line);</span>
+<span class="nc" id="L69">            line = reader.readLine();</span>
+        }
+<span class="nc" id="L71">        reader.close();</span>
+<span class="nc" id="L72">    }</span>
+    
+    /**
+     * Parse each String in the given list and insert in the dictionary.
+     */
+    public void load(final List&lt;String&gt; entries) {
+<span class="nc bnc" id="L78" title="All 2 branches missed.">        for (String entry : entries) {</span>
+<span class="nc" id="L79">            this.load(entry);</span>
+<span class="nc" id="L80">        }</span>
+<span class="nc" id="L81">    }</span>
+    
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.eclemma.org/jacoco">JaCoCo</a> 0.7.5.201505241946</span></div></body></html>

@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workbench progressCount="17" version="2.0">
+<workbenchAdvisor/>
+<window height="743" maximized="true" width="1018" x="65" y="24">
+<fastViewData fastViewLocation="1024"/>
+<perspectiveBar>
+<itemSize x="160"/>
+</perspectiveBar>
+<coolbarLayout>
+<coolItem id="group.file" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="144" y="30"/>
+<coolItem id="additions" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.debug.ui.launch.toolbar" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="156" y="30"/>
+<coolItem id="org.eclipse.debug.ui.main.toolbar" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="88" y="30"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="124" y="30"/>
+<coolItem id="group.nav" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="232" y="30"/>
+<coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.cdt.make.editor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="group.help" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
+</coolbarLayout>
+<page aggregateWorkingSetId="Aggregate for window 1460033351185" focus="true" label="Workspace - Resource">
+<editors>
+<editorArea activeWorkbook="DefaultEditorWorkbook">
+<info part="DefaultEditorWorkbook">
+<folder appearance="1" expanded="2">
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+<part id="4"/>
+<part id="5"/>
+<part id="6"/>
+<part id="7"/>
+<part id="8"/>
+<part id="9"/>
+<part id="10"/>
+<part id="11"/>
+<part id="12"/>
+<part id="13"/>
+<part id="14"/>
+<part id="15"/>
+<part id="16"/>
+<part id="17"/>
+</presentation>
+</folder>
+</info>
+</editorArea>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DataReader.java" partName="DataReader.java" title="DataReader.java" tooltip="/home/w/wlsgra012/Documents/CSC2001F/DS2_Prac1/test/DataReader.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/home/w/wlsgra012/Documents/CSC2001F/DS2_Prac1/test/DataReader.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="LoadTest.java" partName="LoadTest.java" title="LoadTest.java" tooltip="/home/w/wlsgra012/Documents/CSC2001F/DS2_Prac1/test/LoadTest.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/home/w/wlsgra012/Documents/CSC2001F/DS2_Prac1/test/LoadTest.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="32" selectionOffset="1483" selectionTopPixel="154"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Nonsense.java" partName="Nonsense.java" title="Nonsense.java" tooltip="/home/w/wlsgra012/Documents/CSC2001F/DS2_Prac1/test/Nonsense.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/home/w/wlsgra012/Documents/CSC2001F/DS2_Prac1/test/Nonsense.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PrimeSequence.java" partName="PrimeSequence.java" title="PrimeSequence.java" tooltip="/home/w/wlsgra012/Documents/CSC2001F/DS2_Prac1/test/PrimeSequence.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/home/w/wlsgra012/Documents/CSC2001F/DS2_Prac1/test/PrimeSequence.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Randomizer.java" partName="Randomizer.java" title="Randomizer.java" tooltip="/home/w/wlsgra012/Documents/CSC2001F/DS2_Prac1/test/Randomizer.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/home/w/wlsgra012/Documents/CSC2001F/DS2_Prac1/test/Randomizer.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AbstractHashTable.java" partName="AbstractHashTable.java" title="AbstractHashTable.java" tooltip="/home/w/wlsgra012/Documents/CSC2001F/DS2_Prac1/src/dictionary/AbstractHashTable.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/home/w/wlsgra012/Documents/CSC2001F/DS2_Prac1/src/dictionary/AbstractHashTable.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="16" selectionOffset="2280" selectionTopPixel="805"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ChainedEntry.java" partName="ChainedEntry.java" title="ChainedEntry.java" tooltip="/home/w/wlsgra012/Documents/CSC2001F/DS2_Prac1/src/dictionary/ChainedEntry.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/home/w/wlsgra012/Documents/CSC2001F/DS2_Prac1/src/dictionary/ChainedEntry.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Definition.java" partName="Definition.java" title="Definition.java" tooltip="/home/w/wlsgra012/Documents/CSC2001F/DS2_Prac1/src/dictionary/Definition.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/home/w/wlsgra012/Documents/CSC2001F/DS2_Prac1/src/dictionary/Definition.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="4" selectionOffset="233" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Dictionary.java" partName="Dictionary.java" title="Dictionary.java" tooltip="/home/w/wlsgra012/Documents/CSC2001F/DS2_Prac1/src/dictionary/Dictionary.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/home/w/wlsgra012/Documents/CSC2001F/DS2_Prac1/src/dictionary/Dictionary.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1097" selectionTopPixel="137"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Entry.java" partName="Entry.java" title="Entry.java" tooltip="/home/w/wlsgra012/Documents/CSC2001F/DS2_Prac1/src/dictionary/Entry.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/home/w/wlsgra012/Documents/CSC2001F/DS2_Prac1/src/dictionary/Entry.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="7" selectionOffset="331" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Harness.java" partName="Harness.java" title="Harness.java" tooltip="/home/w/wlsgra012/Documents/CSC2001F/DS2_Prac1/src/dictionary/Harness.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/home/w/wlsgra012/Documents/CSC2001F/DS2_Prac1/src/dictionary/Harness.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Loader.java" partName="Loader.java" title="Loader.java" tooltip="/home/w/wlsgra012/Documents/CSC2001F/DS2_Prac1/src/dictionary/Loader.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/home/w/wlsgra012/Documents/CSC2001F/DS2_Prac1/src/dictionary/Loader.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2432" selectionTopPixel="545"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="LPHashTable.java" partName="LPHashTable.java" title="LPHashTable.java" tooltip="/home/w/wlsgra012/Documents/CSC2001F/DS2_Prac1/src/dictionary/LPHashTable.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/home/w/wlsgra012/Documents/CSC2001F/DS2_Prac1/src/dictionary/LPHashTable.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1058" selectionTopPixel="222"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Monitorable.java" partName="Monitorable.java" title="Monitorable.java" tooltip="/home/w/wlsgra012/Documents/CSC2001F/DS2_Prac1/src/dictionary/Monitorable.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/home/w/wlsgra012/Documents/CSC2001F/DS2_Prac1/src/dictionary/Monitorable.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="QPHashTable.java" partName="QPHashTable.java" title="QPHashTable.java" tooltip="/home/w/wlsgra012/Documents/CSC2001F/DS2_Prac1/src/dictionary/QPHashTable.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/home/w/wlsgra012/Documents/CSC2001F/DS2_Prac1/src/dictionary/QPHashTable.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="902" selectionTopPixel="328"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SCHashTable.java" partName="SCHashTable.java" title="SCHashTable.java" tooltip="/home/w/wlsgra012/Documents/CSC2001F/DS2_Prac1/src/dictionary/SCHashTable.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/home/w/wlsgra012/Documents/CSC2001F/DS2_Prac1/src/dictionary/SCHashTable.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="586"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="WordType.java" partName="WordType.java" title="WordType.java" tooltip="/home/w/wlsgra012/Documents/CSC2001F/DS2_Prac1/src/dictionary/WordType.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/home/w/wlsgra012/Documents/CSC2001F/DS2_Prac1/src/dictionary/WordType.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="14"/>
+</editor>
+<editor id="org.eclipse.cdt.make.editor" name="makefile" partName="makefile" title="makefile" tooltip="/home/w/wlsgra012/Documents/CSC2001F/DS2_Prac1/makefile" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/home/w/wlsgra012/Documents/CSC2001F/DS2_Prac1/makefile"/>
+<editorState selectionHorizontalPixel="0" selectionLength="212" selectionOffset="740" selectionTopPixel="300"/>
+</editor>
+</editors>
+<views>
+<view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
+<viewState/>
+</view>
+<view id="org.eclipse.ui.views.TaskList" partName="Tasks">
+<viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.completionField" categoryGroup="none" markerContentGenerator="org.eclipse.ui.ide.tasksGenerator" partName="Tasks">
+<columnWidths org.eclipse.ui.ide.completionField="40" org.eclipse.ui.ide.descriptionField="350" org.eclipse.ui.ide.locationField="105" org.eclipse.ui.ide.markerType="478" org.eclipse.ui.ide.pathField="140" org.eclipse.ui.ide.priorityField="35" org.eclipse.ui.ide.resourceField="105"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.completionField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.priorityField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.descriptionField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.locationField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
+</viewState>
+</view>
+<view id="org.eclipse.ui.navigator.ProjectExplorer" partName="Project Explorer">
+<viewState CommonNavigator.LINKING_ENABLED="0" org.eclipse.cdt.ui.cview.groupincludes="false" org.eclipse.cdt.ui.cview.groupmacros="false" org.eclipse.cdt.ui.editor.CUChildren="true" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0"/>
+</view>
+</views>
+<perspectives activePart="org.eclipse.jdt.ui.CompilationUnitEditor" activePerspective="org.eclipse.ui.resourcePerspective">
+<perspective editorAreaTrimState="1" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="org.eclipse.ui.internal.ide.application.ResourcePerspective" id="org.eclipse.ui.resourcePerspective" label="Resource"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="org.eclipse.ui.NavigateActionSet"/>
+<show_view_action id="org.eclipse.ui.navigator.ProjectExplorer"/>
+<show_view_action id="org.eclipse.ui.views.BookmarkView"/>
+<show_view_action id="org.eclipse.ui.views.ContentOutline"/>
+<show_view_action id="org.eclipse.ui.views.PropertySheet"/>
+<show_view_action id="org.eclipse.ui.views.ProblemView"/>
+<show_view_action id="org.eclipse.ui.views.ProgressView"/>
+<show_view_action id="org.eclipse.ui.views.TaskList"/>
+<show_view_action id="org.eclipse.ant.ui.views.AntView"/>
+<show_view_action id="org.eclipse.pde.runtime.LogView"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.folder"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.file"/>
+<new_wizard_action id="org.eclipse.ui.editors.wizards.UntitledTextFileWizard"/>
+<perspective_action id="org.eclipse.cdt.ui.CPerspective"/>
+<perspective_action id="org.eclipse.jdt.ui.JavaPerspective"/>
+<perspective_action id="org.eclipse.jdt.ui.JavaBrowsingPerspective"/>
+<perspective_action id="org.eclipse.team.cvs.ui.cvsPerspective"/>
+<perspective_action id="org.eclipse.team.ui.TeamSynchronizingPerspective"/>
+<hide_toolbar_item_id id="org.eclipse.debug.ui.commands.RunToLine"/>
+<hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<fastViewBars>
+<fastViewBar fastViewLocation="16384" id="bottomLeft" orientation="512" selectedTabId="org.eclipse.ui.views.ContentOutline" style="1">
+<fastViews>
+<view id="org.eclipse.ui.views.ContentOutline" ratio="0.3"/>
+</fastViews>
+</fastViewBar>
+<fastViewBar fastViewLocation="1024" id="bottomRight" orientation="256" selectedTabId="org.eclipse.ui.views.TaskList" style="1">
+<fastViews>
+<view id="org.eclipse.ui.views.TaskList" ratio="0.3"/>
+</fastViews>
+</fastViewBar>
+<fastViewBar fastViewLocation="16384" id="topLeft" orientation="512" selectedTabId="org.eclipse.ui.navigator.ProjectExplorer" style="1">
+<fastViews>
+<view id="org.eclipse.ui.navigator.ProjectExplorer" ratio="0.3"/>
+</fastViews>
+</fastViewBar>
+</fastViewBars>
+<layout>
+<mainWindow>
+<info folder="true" part="topLeft">
+<folder appearance="2" expanded="0">
+<page content="org.eclipse.ui.navigator.ProjectExplorer" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
+<page content="org.eclipse.team.ccvs.ui.RepositoriesView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info folder="true" part="stickyFolderRight" ratio="0.7495049" ratioLeft="757" ratioRight="253" relationship="2" relative="topLeft">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+</folder>
+</info>
+<info part="org.eclipse.gef.ui.palette_view" ratio="0.25940594" ratioLeft="262" ratioRight="748" relationship="2" relative="topLeft"/>
+<info folder="true" part="bottomRight" ratio="0.659375" ratioLeft="422" ratioRight="218" relationship="4" relative="org.eclipse.gef.ui.palette_view">
+<folder appearance="2" expanded="0">
+<page content="org.eclipse.ui.views.TaskList" label="LabelNotFound"/>
+<page content="org.eclipse.team.ui.GenericHistoryView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.1590909" ratioLeft="119" ratioRight="629" relationship="2" relative="org.eclipse.gef.ui.palette_view"/>
+<info folder="true" part="bottomLeft" ratio="0.5" ratioLeft="320" ratioRight="320" relationship="4" relative="topLeft">
+<folder appearance="2" expanded="0">
+<page content="org.eclipse.ui.views.ContentOutline" label="LabelNotFound"/>
+<page content="org.eclipse.ant.ui.views.AntView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
+</perspectives>
+<workingSets/>
+<navigationHistory>
+<editors>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" uri="file:/home/w/wlsgra012/Documents/CSC2001F/DS2_Prac1/test/LoadTest.java"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" uri="file:/home/w/wlsgra012/Documents/CSC2001F/DS2_Prac1/src/dictionary/AbstractHashTable.java"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" uri="file:/home/w/wlsgra012/Documents/CSC2001F/DS2_Prac1/src/dictionary/Loader.java"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" uri="file:/home/w/wlsgra012/Documents/CSC2001F/DS2_Prac1/src/dictionary/QPHashTable.java"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.cdt.make.editor" uri="file:/home/w/wlsgra012/Documents/CSC2001F/DS2_Prac1/makefile"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" uri="file:/home/w/wlsgra012/Documents/CSC2001F/DS2_Prac1/src/dictionary/Monitorable.java"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" uri="file:/home/w/wlsgra012/Documents/CSC2001F/DS2_Prac1/src/dictionary/SCHashTable.java"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" uri="file:/home/w/wlsgra012/Documents/CSC2001F/DS2_Prac1/src/dictionary/Entry.java"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" uri="file:/home/w/wlsgra012/Documents/CSC2001F/DS2_Prac1/src/dictionary/Definition.java"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" uri="file:/home/w/wlsgra012/Documents/CSC2001F/DS2_Prac1/src/dictionary/LPHashTable.java"/>
+</editors>
+<item historyLabel="QPHashTable.java" index="3">
+<position info="not_deleted" x="800" y="0"/>
+</item>
+<item historyLabel="AbstractHashTable.java" index="1">
+<position info="not_deleted" x="2296" y="0"/>
+</item>
+<item historyLabel="QPHashTable.java" index="3">
+<position info="not_deleted" x="627" y="14"/>
+</item>
+<item historyLabel="LoadTest.java" index="0">
+<position info="not_deleted" x="1785" y="0"/>
+</item>
+<item historyLabel="AbstractHashTable.java" index="1">
+<position info="not_deleted" x="2292" y="4"/>
+</item>
+<item historyLabel="Loader.java" index="2">
+<position info="not_deleted" x="2432" y="0"/>
+</item>
+<item historyLabel="Monitorable.java" index="5">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="QPHashTable.java" index="3">
+<position info="not_deleted" x="899" y="3"/>
+</item>
+<item historyLabel="AbstractHashTable.java" index="1">
+<position info="not_deleted" x="2090" y="9"/>
+</item>
+<item historyLabel="LoadTest.java" index="0">
+<position info="not_deleted" x="1590" y="26"/>
+</item>
+<item historyLabel="QPHashTable.java" index="3">
+<position info="not_deleted" x="755" y="10"/>
+</item>
+<item historyLabel="AbstractHashTable.java" index="1">
+<position info="not_deleted" x="2540" y="10"/>
+</item>
+<item historyLabel="LoadTest.java" index="0">
+<position info="not_deleted" x="1503" y="10"/>
+</item>
+<item historyLabel="Loader.java" index="2">
+<position info="not_deleted" x="2536" y="0"/>
+</item>
+<item historyLabel="AbstractHashTable.java" index="1">
+<position info="not_deleted" x="2540" y="10"/>
+</item>
+<item historyLabel="QPHashTable.java" index="3">
+<position info="not_deleted" x="755" y="10"/>
+</item>
+<item historyLabel="AbstractHashTable.java" index="1">
+<position info="not_deleted" x="2540" y="10"/>
+</item>
+<item historyLabel="QPHashTable.java" index="3">
+<position info="not_deleted" x="740" y="5"/>
+</item>
+<item historyLabel="makefile" index="4">
+<position info="not_deleted" x="1689" y="0"/>
+</item>
+<item historyLabel="QPHashTable.java" index="3">
+<position/>
+</item>
+<item historyLabel="makefile" index="4">
+<position info="not_deleted" x="1703" y="0"/>
+</item>
+<item historyLabel="QPHashTable.java" index="3">
+<position info="not_deleted" x="1156" y="0"/>
+</item>
+<item historyLabel="AbstractHashTable.java" index="1">
+<position info="not_deleted" x="1963" y="66"/>
+</item>
+<item historyLabel="QPHashTable.java" index="3">
+<position info="not_deleted" x="1156" y="0"/>
+</item>
+<item historyLabel="QPHashTable.java" index="3">
+<position info="not_deleted" x="747" y="0"/>
+</item>
+<item historyLabel="makefile" index="4">
+<position info="not_deleted" x="1630" y="0"/>
+</item>
+<item historyLabel="Loader.java" index="2">
+<position info="not_deleted" x="2432" y="0"/>
+</item>
+<item historyLabel="QPHashTable.java" index="3">
+<position info="not_deleted" x="747" y="0"/>
+</item>
+<item historyLabel="Loader.java" index="2">
+<position info="not_deleted" x="2432" y="0"/>
+</item>
+<item historyLabel="AbstractHashTable.java" index="1">
+<position info="not_deleted" x="2104" y="0"/>
+</item>
+<item historyLabel="LoadTest.java" index="0">
+<position info="not_deleted" x="1483" y="32"/>
+</item>
+<item historyLabel="AbstractHashTable.java" index="1">
+<position info="not_deleted" x="2104" y="0"/>
+</item>
+<item historyLabel="QPHashTable.java" index="3">
+<position info="not_deleted" x="747" y="0"/>
+</item>
+<item historyLabel="makefile" index="4">
+<position info="not_deleted" x="1688" y="0"/>
+</item>
+<item historyLabel="SCHashTable.java" index="6">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="QPHashTable.java" index="3">
+<position info="not_deleted" x="1269" y="0"/>
+</item>
+<item historyLabel="makefile" index="4">
+<position info="not_deleted" x="854" y="12"/>
+</item>
+<item historyLabel="AbstractHashTable.java" index="1">
+<position info="not_deleted" x="338" y="0"/>
+</item>
+<item historyLabel="Entry.java" index="7">
+<position info="not_deleted" x="331" y="7"/>
+</item>
+<item historyLabel="Definition.java" index="8">
+<position info="not_deleted" x="233" y="4"/>
+</item>
+<item historyLabel="AbstractHashTable.java" index="1">
+<position info="not_deleted" x="258" y="5"/>
+</item>
+<item historyLabel="makefile" index="4">
+<position info="not_deleted" x="740" y="212"/>
+</item>
+<item historyLabel="LPHashTable.java" index="9">
+<position info="not_deleted" x="623" y="5"/>
+</item>
+<item historyLabel="AbstractHashTable.java" index="1">
+<position info="not_deleted" x="2490" y="0"/>
+</item>
+<item historyLabel="LPHashTable.java" index="9">
+<position info="not_deleted" x="623" y="5"/>
+</item>
+<item historyLabel="AbstractHashTable.java" index="1">
+<position info="not_deleted" x="1165" y="2"/>
+</item>
+<item historyLabel="LPHashTable.java" index="9">
+<position info="not_deleted" x="1058" y="0"/>
+</item>
+<item historyLabel="QPHashTable.java" index="3">
+<position info="not_deleted" x="1169" y="0"/>
+</item>
+<item historyLabel="AbstractHashTable.java" index="1">
+<position info="not_deleted" x="2280" y="16"/>
+</item>
+<item active="true" historyLabel="QPHashTable.java" index="3">
+<position info="not_deleted" x="1169" y="0"/>
+</item>
+</navigationHistory>
+<input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
+</page>
+<workbenchWindowAdvisor/>
+<actionBarAdvisor/>
+<trimLayout>
+<trimArea IMemento.internal.id="16384">
+<trimItem IMemento.internal.id="topLeft"/>
+<trimItem IMemento.internal.id="bottomLeft"/>
+</trimArea>
+<trimArea IMemento.internal.id="128">
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
+</trimArea>
+<trimArea IMemento.internal.id="1024">
+<trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
+<trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
+<trimItem IMemento.internal.id="bottomRight"/>
+</trimArea>
+</trimLayout>
+</window>
+<mruList>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.cdt.make.editor" name="makefile" tooltip="/home/w/wlsgra012/Documents/CSC2001F/DS2_Prac1/makefile">
+<persistable uri="file:/home/w/wlsgra012/Documents/CSC2001F/DS2_Prac1/makefile"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="WordType.java" tooltip="/home/w/wlsgra012/Documents/CSC2001F/DS2_Prac1/src/dictionary/WordType.java">
+<persistable uri="file:/home/w/wlsgra012/Documents/CSC2001F/DS2_Prac1/src/dictionary/WordType.java"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SCHashTable.java" tooltip="/home/w/wlsgra012/Documents/CSC2001F/DS2_Prac1/src/dictionary/SCHashTable.java">
+<persistable uri="file:/home/w/wlsgra012/Documents/CSC2001F/DS2_Prac1/src/dictionary/SCHashTable.java"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="QPHashTable.java" tooltip="/home/w/wlsgra012/Documents/CSC2001F/DS2_Prac1/src/dictionary/QPHashTable.java">
+<persistable uri="file:/home/w/wlsgra012/Documents/CSC2001F/DS2_Prac1/src/dictionary/QPHashTable.java"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Monitorable.java" tooltip="/home/w/wlsgra012/Documents/CSC2001F/DS2_Prac1/src/dictionary/Monitorable.java">
+<persistable uri="file:/home/w/wlsgra012/Documents/CSC2001F/DS2_Prac1/src/dictionary/Monitorable.java"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="LPHashTable.java" tooltip="/home/w/wlsgra012/Documents/CSC2001F/DS2_Prac1/src/dictionary/LPHashTable.java">
+<persistable uri="file:/home/w/wlsgra012/Documents/CSC2001F/DS2_Prac1/src/dictionary/LPHashTable.java"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Loader.java" tooltip="/home/w/wlsgra012/Documents/CSC2001F/DS2_Prac1/src/dictionary/Loader.java">
+<persistable uri="file:/home/w/wlsgra012/Documents/CSC2001F/DS2_Prac1/src/dictionary/Loader.java"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Harness.java" tooltip="/home/w/wlsgra012/Documents/CSC2001F/DS2_Prac1/src/dictionary/Harness.java">
+<persistable uri="file:/home/w/wlsgra012/Documents/CSC2001F/DS2_Prac1/src/dictionary/Harness.java"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Entry.java" tooltip="/home/w/wlsgra012/Documents/CSC2001F/DS2_Prac1/src/dictionary/Entry.java">
+<persistable uri="file:/home/w/wlsgra012/Documents/CSC2001F/DS2_Prac1/src/dictionary/Entry.java"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Dictionary.java" tooltip="/home/w/wlsgra012/Documents/CSC2001F/DS2_Prac1/src/dictionary/Dictionary.java">
+<persistable uri="file:/home/w/wlsgra012/Documents/CSC2001F/DS2_Prac1/src/dictionary/Dictionary.java"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Definition.java" tooltip="/home/w/wlsgra012/Documents/CSC2001F/DS2_Prac1/src/dictionary/Definition.java">
+<persistable uri="file:/home/w/wlsgra012/Documents/CSC2001F/DS2_Prac1/src/dictionary/Definition.java"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ChainedEntry.java" tooltip="/home/w/wlsgra012/Documents/CSC2001F/DS2_Prac1/src/dictionary/ChainedEntry.java">
+<persistable uri="file:/home/w/wlsgra012/Documents/CSC2001F/DS2_Prac1/src/dictionary/ChainedEntry.java"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AbstractHashTable.java" tooltip="/home/w/wlsgra012/Documents/CSC2001F/DS2_Prac1/src/dictionary/AbstractHashTable.java">
+<persistable uri="file:/home/w/wlsgra012/Documents/CSC2001F/DS2_Prac1/src/dictionary/AbstractHashTable.java"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Randomizer.java" tooltip="/home/w/wlsgra012/Documents/CSC2001F/DS2_Prac1/test/Randomizer.java">
+<persistable uri="file:/home/w/wlsgra012/Documents/CSC2001F/DS2_Prac1/test/Randomizer.java"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PrimeSequence.java" tooltip="/home/w/wlsgra012/Documents/CSC2001F/DS2_Prac1/test/PrimeSequence.java">
+<persistable uri="file:/home/w/wlsgra012/Documents/CSC2001F/DS2_Prac1/test/PrimeSequence.java"/>
+</file>
+</mruList>
+</workbench>
