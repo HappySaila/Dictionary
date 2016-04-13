@@ -52,7 +52,7 @@ public class SCHashTable extends AbstractHashTable {
 			while (true){
 				incProbeCount();//another probe to traverse to next chain
 				if (temp.getWord().equals(word)){
-					table[index].addDefinition(definition);
+					temp.addDefinition(definition);
 					return;
 				}
 				else if(temp.getNext()==null){
@@ -77,12 +77,14 @@ public class SCHashTable extends AbstractHashTable {
 		int index = findIndex(word);
 		ChainedEntry temp;
 		if (table[index]==null){
+			incProbeCount();
 			return false;
 		}
 		else{
 			//words are at the index in the table
 			temp = table[index];
 			while(temp.getNext()!=null)
+				incProbeCount();
 				if (temp.getWord().equals(word)){
 					return true;
 				}
@@ -91,6 +93,7 @@ public class SCHashTable extends AbstractHashTable {
 				}
 		}
 		//perform one more check for final link
+		incProbeCount();
 		if (temp.getWord().equals(word)){
 			return true;
 		}

@@ -27,6 +27,7 @@ public class SearchTest {
 		final Loader loader = new Loader(table);
 		int sampleSize = Integer.parseInt(args[3]);
 		int trials = Integer.parseInt(args[4]);
+		int totalProbes = 0;
 
 		int realTests = (int)(0.8*sampleSize);
 		int nonsenseTests = (int)(0.2*sampleSize);
@@ -34,8 +35,7 @@ public class SearchTest {
 		// Your code here.
 		File file = new File("data/" +args[2]);
 		DataReader reader = new DataReader(file);
-		Randomizer rand = new Randomizer(reader.asList());
-		Nonsense non = new Nonsense(1,10);
+		
 		System.out.println("Hoorah");
 		try{
 			loader.loader(file);
@@ -43,8 +43,9 @@ public class SearchTest {
 		catch(Exception e){
 			System.out.println(e.getMessage());
 		}
-		//for (int j=0; j<trials; j++){
-			table.resetProbeCount();
+		for (int j=0; j<trials; j++){
+			Randomizer rand = new Randomizer(reader.asList());
+			Nonsense non = new Nonsense(1,10);
 			for (int i=0; i<realTests; i++){
 				//get and find a random word
 				try{
@@ -52,7 +53,7 @@ public class SearchTest {
 					final Scanner scanner = new Scanner(load).useDelimiter("\\s*:\\s*");
 					scanner.next();
 					String word = scanner.next();
-					System.out.println(word);
+					//System.out.println(word);
 					table.containsWord(word);
 				}
 				catch(Exception e){
@@ -62,6 +63,7 @@ public class SearchTest {
 			for (int i=0; i<nonsenseTests; i++){
 				try{
 					String word = non.next();
+					//System.out.println(word);
 					table.containsWord(word);
 				}
 				catch(Exception e){
@@ -69,6 +71,8 @@ public class SearchTest {
 				}
 			}
 			System.out.println("Number of probes: "+table.getProbeCount());
-		//}
+		}
+		System.out.println("loadFactor: "+table.loadFactor());
+		System.out.println("total probe counts: "+table.getProbeCount()/trials);
 	}
 }

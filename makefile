@@ -60,4 +60,4 @@ re:
 harn: all
 	java -cp $(BINDIR) Harness
 search: clean all
-	java -cp $(BINDIR) SearchTest dictionary.QPHashTable 1000 lexicon.txt 100 10000
+	java -cp $(BINDIR) SearchTest dictionary.LPHashTable 3739 lexicon.txt 100 10000
