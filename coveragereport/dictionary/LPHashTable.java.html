@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../.resources/report.css" type="text/css"/><link rel="shortcut icon" href="../.resources/report.gif" type="image/gif"/><title>LPHashTable.java</title><link rel="stylesheet" href="../.resources/prettify.css" type="text/css"/><script type="text/javascript" src="../.resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../.sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">.</a> &gt; <a href="index.source.html" class="el_package">dictionary</a> &gt; <span class="el_source">LPHashTable.java</span></div><h1>LPHashTable.java</h1><pre class="source lang-java linenums">//WLSGRA012
+package dictionary;
+import java.util.List;
+/**
+ * Simple hash table implementation of Dictionary using linear probing.
+ * 
+ * @author Stephan Jamieson 
+ * @version 24/4/2015
+ */
+public class LPHashTable extends AbstractHashTable {
+
+	/**
+	 * Create an LPHashTable with DEFAULT_SIZE table.
+	 */ 
+<span class="fc" id="L15">	public LPHashTable() { super(); }</span>
+
+	/**
+	 * Create an LPHashTable with the given default size table.
+	 */
+<span class="fc" id="L20">	public LPHashTable(int size) { super(size); }  </span>
+	@Override
+	protected int findIndex(String word) {
+		// Implementation of findIndex() required here.
+<span class="fc" id="L24">		int hashVal = hashFunction(word);</span>
+<span class="fc" id="L25">		int size = size();</span>
+<span class="fc" id="L26">		int iterator = table.length;</span>
+		while(true){
+<span class="fc" id="L28">			incProbeCount();//probe started/restarted</span>
+<span class="fc bfc" id="L29" title="All 2 branches covered.">			if (loadFactor()==1){</span>
+				//table is full
+<span class="fc" id="L31">				return -1;</span>
+			}
+<span class="fc bfc" id="L33" title="All 2 branches covered.">			else if (table[hashVal]==null){</span>
+				//empty slot, insert the word
+<span class="fc" id="L35">				return hashVal;</span>
+			}
+<span class="fc bfc" id="L37" title="All 2 branches covered.">			else if (table[hashVal].getWord().equals(word)){</span>
+				//add the def
+<span class="fc" id="L39">				return hashVal;</span>
+			}
+			else {
+				//it is a different word, LP
+<span class="fc" id="L43">				hashVal++;</span>
+<span class="fc bfc" id="L44" title="All 2 branches covered.">				if (hashVal&gt;iterator-1){</span>
+<span class="fc" id="L45">					hashVal = 0;</span>
+				}
+			}
+		}
+	}
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.eclemma.org/jacoco">JaCoCo</a> 0.7.5.201505241946</span></div></body></html>

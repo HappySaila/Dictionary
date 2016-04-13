@@ -27,6 +27,8 @@ public class TestSCHashTable {
 		assertTrue(list4==null);
 		assertTrue(!contains2);
 		assertTrue(contains);
+		assertTrue(table.containsWord("a"));
+		assertTrue(!table.containsWord("noWord"));
 		assertTrue(table.getTable()[8].getNext().getNext().getWord().equals("b"));
 	}
 	@Test

@@ -29,7 +29,7 @@ public class QPHashTable extends AbstractHashTable {
 		
 		while(true){
 			incProbeCount(); //probe started/restarted
-			if (loadFactor()>1){
+			if (loadFactor()>=1){
 				//table needs rehashing
 				//resizes the table
 				/*table = rehash(table);

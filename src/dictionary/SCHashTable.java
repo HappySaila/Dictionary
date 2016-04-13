@@ -83,7 +83,7 @@ public class SCHashTable extends AbstractHashTable {
 		else{
 			//words are at the index in the table
 			temp = table[index];
-			while(temp.getNext()!=null)
+			while(temp.getNext()!=null){
 				incProbeCount();
 				if (temp.getWord().equals(word)){
 					return true;
@@ -91,6 +91,7 @@ public class SCHashTable extends AbstractHashTable {
 				else{
 					temp = temp.getNext();
 				}
+			}
 		}
 		//perform one more check for final link
 		incProbeCount();
@@ -105,7 +106,7 @@ public class SCHashTable extends AbstractHashTable {
 		// Your code here. 
 		int index = findIndex(word);
 		ChainedEntry temp;
-		
+
 		if (table[index]==null){
 			return null;
 		}
