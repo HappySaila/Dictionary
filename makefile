@@ -33,9 +33,12 @@ all: Monitorable.class WordType.class Definition.class Entry.class ChainedEntry.
 	Randomizer.class DataReader.class Nonsense.class\
 	LoadTest.class SearchTest.class\
 
+doc:
+	javadoc -d $(DOCDIR) $(SRCDIR)/dictionary/*.java $(TESTDIR)
+
 # Rules for unit testing
 # Add additional Testxx.class file to this line and to TestSuite.java
-test_classes: all TestLPHashTable.class TestQPHashTable.class TestSCHashTable.class TestSuite.class
+test_classes: all TestLPHashTable.class TestQPHashTable.class TestSCHashTable.class TestLoadTest.class TestSuite.class
 
 test: test_classes
 	java -ea -cp $(BINDIR):$(JUNIT) org.junit.runner.JUnitCore TestSuite
@@ -56,8 +59,8 @@ clean:
 run: clean all
 	java -cp $(BINDIR) LoadTest dictionary.LPHashTable 1000 lexicon.txt
 re:
-	java -cp $(BINDIR) LoadTest dictionary.SCHashTable 1000 lexicon.txt
+	java -cp $(BINDIR) LoadTest dictionary.LPHashTable 1 lexicon.txt
 harn: all
 	java -cp $(BINDIR) Harness
 search: clean all
-	java -cp $(BINDIR) SearchTest dictionary.LPHashTable 3739 lexicon.txt 100 10000
+	java -cp $(BINDIR) SearchTest dictionary.QPHashTable 3739 lexicon.txt 100 10000

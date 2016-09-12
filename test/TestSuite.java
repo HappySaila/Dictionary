@@ -9,7 +9,7 @@ import org.junit.runners.Suite;
 */
 @RunWith(Suite.class)
 @Suite.SuiteClasses({
-	 TestLPHashTable.class , TestQPHashTable.class , TestSCHashTable.class, /*, <next class>, <next class>, ... */
+	 TestLPHashTable.class , TestQPHashTable.class , TestSCHashTable.class, TestLoadTest.class/*, <next class>, <next class>, ... */
 })
 
 public class TestSuite { /* Holder for above annotations. */}
